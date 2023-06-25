@@ -1,21 +1,30 @@
 import React from "react";
-
+import securityGuard from "../assets/images/security-guard.jpeg";
 const WhatWeDo = () => {
   return (
-    <div>
-      <div>
-        <img src="" alt="image" />
+    <div className="flex min-h-[50vh] h-full justify-around gap-3 w-full px-3 py-10">
+      <div className="h-full">
+        <img
+          src={securityGuard}
+          alt="guard"
+          className="min-h-[400px] bg-center object-cover"
+        />
       </div>
-      <div>
-        <p>What we do </p>
-
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae,
-          corporis laudantium voluptatem, ipsa quisquam eum ullam quaerat cumque
-          voluptatum hic sint atque beatae magnam tempora quam amet alias
-          dolorum neque.
+      <div className="flex flex-col justify-center gap-5">
+        <p className="text-2xl ">
+          What
+          <span className="font-bold"> we do...</span>
         </p>
-        <button> About Our Company</button>
+
+        <p className="font-light text-sm ">
+          We provide discrete bespoke security and safety solutions for our
+          clients both in Africa and internationally. . We bring more than a
+          decade of innovation, expertise and experience, customer driven
+          methods, and proven results of our solutions.
+        </p>
+        <button className="btn rounded-sm font-light uppercase w-2/4 text-white  bg-[#f48006]  ">
+          About Our Company
+        </button>
       </div>
     </div>
   );
