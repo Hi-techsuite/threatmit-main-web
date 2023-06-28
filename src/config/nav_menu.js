@@ -1,20 +1,22 @@
+import { AppConfig } from "./config";
+
 export const navMenu = [
   {
     name: "Home",
-    link: "/",
+    link: AppConfig.routes.home,
   },
 
   {
     name: "Services",
-    link: "/services",
+    link: AppConfig.routes.services,
   },
 
   {
     name: "About Us",
-    link: "/about-us",
+    link: AppConfig.routes.about_us,
   },
   {
     name: "Training",
-    link: "/training",
+    link: AppConfig.routes.training,
   },
 ];

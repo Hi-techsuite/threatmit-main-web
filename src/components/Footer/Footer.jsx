@@ -3,20 +3,21 @@ import logo from "../../assets/images/threat-mit.png";
 
 const Footer = () => {
   return (
-    <div className="min-h-[300px] bg-[#1D1D1D] text-white px-5  gap-5 flex flex-col">
-      <div className="flex gap-4 justify-around">
-        <img src={logo} className="" />
-        <p className="text-3xl">
-          We Protect{" "}
-          <span className="font-bold">
-            Privacy <br></br> and Business
-          </span>
-        </p>
+    <div className=" bg-[#1D1D1D] text-white px-5  gap-9 flex flex-col">
+      <div className="flex md:flex-row flex-col md:justify-normal items-start justify-center items-center gap-4 justify-around pt-10 ">
+        <div>
+          <img src={logo} className="w-2/5" />
+          <p className="text-2xl">
+            We Protect
+            <span className="font-bold">
+              Privacy <br></br> and Business
+            </span>
+          </p>
+        </div>
 
-        <div className="flex flex-col">
+        <div className="flex flex-col w-2/5">
           <p>Address</p>
           <p>
-            {" "}
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
             unde nam numquam quo
           </p>

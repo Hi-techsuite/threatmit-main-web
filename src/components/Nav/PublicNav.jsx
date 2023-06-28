@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "../../assets/images/threat-mit.png";
 import { navMenu } from "../../config/nav_menu";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const PublicNav = () => {
   return (
@@ -32,7 +32,9 @@ const PublicNav = () => {
         1 800 458 56 97
       </a>
 
-      <button className="btn bg-[#F48006] rounded-sm ">Contact us</button>
+      <Link to={"/contact-us"} className="btn bg-[#F48006] rounded-sm ">
+        Contact us
+      </Link>
     </div>
   );
 };
