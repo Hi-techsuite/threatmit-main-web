@@ -6,6 +6,7 @@ import Newsletter from "../components/Newsletter";
 import Gallery from "../components/Gallery";
 import Testimonies from "../components/Testimonies";
 import { globe_img, padlock_img } from "../config/imageFactory";
+import OurClients from "../components/OurClients";
 
 const AboutUs = () => {
   return (
@@ -31,6 +32,8 @@ const AboutUs = () => {
       <Newsletter />
       {/* <Gallery /> */}
       <Testimonies />
+
+      <OurClients />
     </div>
   );
 };
