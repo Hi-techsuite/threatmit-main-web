@@ -8,7 +8,7 @@ import InfoCounter from "../components/InfoCounter";
 const Home = () => {
   return (
     <section className="min-h-[100vh] ">
-      <Hero />
+      {/* <Hero /> */}
       <div className="flex   bg-[#330e70]  text-white items-center  py-10 px-5 justify-around">
         <p className="w-2/5 font-light">
           We Offer Fast,{" "}
