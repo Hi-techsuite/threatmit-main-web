@@ -30,4 +30,4 @@ jobs:
         username: ${{secrets.username}}
         password: ${{secrets.password }}
         local-dir: ./dist/
-        server-dir: /test.threatmits.com/
+        server-dir: /threatmits.com/
