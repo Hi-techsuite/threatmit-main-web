@@ -1,8 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import "./fonts.css";
-import "./app.css";
+// import "./fonts.css";
+// import "./app.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
