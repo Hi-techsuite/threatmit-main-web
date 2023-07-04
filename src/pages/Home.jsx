@@ -9,20 +9,20 @@ const Home = () => {
   return (
     <section className="min-h-[100vh] ">
       <Hero />
-      {/* <div className="flex   bg-[#330e70]  text-white items-center  py-10 px-5 justify-around">
-        <p className="w-2/5 font-light">
+      <div className="flex md:flex-row flex-col   gap-4  bg-[#330e70]  text-white md:items-center   py-10 px-5 ">
+        <p className="md:w-2/5 w-full text-center text-xl font-light">
           We Offer Fast,{" "}
           <span className="font-bold">
             Professional and Exceptional Services
           </span>
         </p>
-        <div className="flex gap-4">
+        <div className="flex gap-4 md:justify-start justify-center w-full">
           <button className="btn rounded-sm text-white bg-[#f48006] border-none text-xs">
             MAKE AN APPOINTMENT
           </button>
           <button className="tn border-2 px-5 py-3"> CONTACT US ONLINE</button>
         </div>
-      </div> */}
+      </div>
       <WhatWeDo />
 
       <OurServices />
