@@ -18,26 +18,52 @@ const SlickCarousel = () => {
         {/*  bg-[url('/src/assets/images/automation.png')] */}
         <section
           className="min-h-[70vh] md:min-h-[100vh] relative  bg-cover flex flex-col gap-3   items-center justify-center   "
-          // style={{
-          //   backgroundPosition: "center",
-          //   backgroundImage: `linear-gradient(to bottom, rgba(97,165,250, 0.52), rgba(0,0,0, 0.93)),
-          //   url('images/background.jpg') ,url(${imag})`,
-          // }}
+          style={{
+            backgroundPosition: "center",
+            backgroundImage: `linear-gradient(to bottom, rgba(97,165,250, 0.52), rgba(0,0,0, 0.93)),
+            url('https://threatmits.com/assets/marine-vessel.jpeg') ,url("https://threatmits.com/assets/marine-vessel.jpeg")`,
+          }}
         >
           <div className=" flex  gap-3  flex-col   right-20  top-32 bottom-30 items-center justify-center  px-20">
             <p className="font-extrabold text-white  md:text-7xl flex flex-col  text-4xl ">
-              Purchase High-End Devices
+              We are Always on Guard for Your Family and Business
             </p>
 
             <p className="text-2xl text-gray-300">
-              Make reservation and get it delivered in 24 Hours
+              Make Sure Your House is a Safe Place
             </p>
             <Link
               to={"/online"}
-              className="btn normal  bg-blue-500  text-white border-none font-bold  rounded-sm flex  flex-row gap-3"
+              className="btn normal  bg-[#F48006]  text-white border-none font-bold  rounded-sm flex  flex-row gap-3"
             >
-              Shop Now
-              <ShoppingCartIcon className="w-6" />
+              more information
+              {/* <ShoppingCartIcon className="w-6" /> */}
+            </Link>
+          </div>
+        </section>
+
+        <section
+          className="min-h-[70vh] md:min-h-[100vh] relative  bg-cover flex flex-col gap-3   items-center justify-center   "
+          style={{
+            backgroundPosition: "center",
+            backgroundImage: `linear-gradient(to bottom, rgba(97,165,250, 0.52), rgba(0,0,0, 0.93)),
+            url('https://threatmits.com/assets/cctv.jpeg') ,url("https://threatmits.com/assets/cctv.jpeg")`,
+          }}
+        >
+          <div className=" flex  gap-3  flex-col   right-20  top-32 bottom-30 items-center justify-center  px-20">
+            <p className="font-extrabold text-white  md:text-4xl flex flex-col  text-4xl ">
+              24/7 Survellance
+            </p>
+
+            <p className="text-2xl text-gray-300">
+              Get survellance of your homes and properties
+            </p>
+            <Link
+              to={"/online"}
+              className="btn normal  bg-[#F48006]  text-white border-none font-bold  rounded-sm flex  flex-row gap-3"
+            >
+              Get in touch
+              {/* <ShoppingCartIcon className="w-6" /> */}
             </Link>
           </div>
         </section>
