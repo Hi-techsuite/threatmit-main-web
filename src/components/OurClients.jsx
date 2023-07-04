@@ -13,7 +13,7 @@ import { nexim_img, shell_img, tulip_img } from "../config/imageFactory";
 
 const OurClients = () => {
   return (
-    <div className="px-5 py-5">
+    <div className="px-5 py-5 ">
       <Slider {...slider_settings}>
         <OurClientsModel image={nexim_img} />
         <OurClientsModel image={shell_img} />
