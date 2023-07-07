@@ -7,7 +7,7 @@ import InfoCounter from "../components/InfoCounter";
 
 const Home = () => {
   return (
-    <section className="min-h-[100vh] ">
+    <section className="min-h-[100vh] w-full overflow-hidden">
       <Hero />
       <div className="flex md:flex-row flex-col   gap-4  bg-[#330e70]  text-white md:items-center   py-10 px-5 ">
         <p className="md:w-2/5 w-full text-center text-xl font-light">

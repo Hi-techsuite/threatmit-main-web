@@ -9,8 +9,10 @@ import RightModal from "../Modal/RightModal";
 const PublicNav = () => {
   const [mobileNav, setMobildNav] = useState(false);
   return (
-    <div className="flex bg-[#F6EEEE] py-5 px-2 gap-4 justify-between items-center overflow-hidden">
-      <img src={logo} alt="image" className="w-20 " />
+    <div className="flex bg-[#F6EEEE] py-3 px-2 gap-4  items-center ">
+      <div>
+        <img src={logo} alt="image" className="w-20 " />
+      </div>
       <div className="flex ">
         <div className="   gap-4 px-24 hidden md:flex text-black font-bold  lg:flex sm:hidden py-1">
           {navMenu &&
