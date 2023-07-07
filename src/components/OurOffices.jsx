@@ -22,25 +22,28 @@ const OurOffices = () => {
         showArrows={true}
         showStatus={false}
         useKeyboardArrows={true}
-        className=" px-4 py-10 bg-green-200  "
+        className=" px-4 py-10  "
       >
         {/*  bg-[url('/src/assets/images/automation.png')] */}
 
-        <AddressModel
-          map={
-            <iframe
-              width="900"
-              height="440"
-              src="https://maps.google.com/maps?width=900&amp;height=800&amp;hl=en&amp;q=Road%205%2C%20Area%20N%2C%20World%20bank%20Housing%20Estate%2C%20Abia%20State+(Threat%20MIT)&amp;ie=UTF8&amp;t=&amp;z=10&amp;iwloc=B&amp;output=embed"
-              frameborder="0"
-              scrolling="no"
-              marginheight="0"
-              marginwidth="0"
-            ></iframe>
-          }
-        />
-        <AddressModel />
-        <AddressModel />
+        {Offices.map((office, index) => {
+          return (
+            <AddressModel
+              payload={office}
+              map={
+                <iframe
+                  width="100%"
+                  height="440"
+                  src="https://maps.google.com/maps?width=900&amp;height=800&amp;hl=en&amp;q=Road%205%2C%20Area%20N%2C%20World%20bank%20Housing%20Estate%2C%20Abia%20State+(Threat%20MIT)&amp;ie=UTF8&amp;t=&amp;z=10&amp;iwloc=B&amp;output=embed"
+                  frameborder="0"
+                  scrolling="no"
+                  marginheight="0"
+                  marginwidth="0"
+                ></iframe>
+              }
+            />
+          );
+        })}
       </Carousel>
     </div>
   );

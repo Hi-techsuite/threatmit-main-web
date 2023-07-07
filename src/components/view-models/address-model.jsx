@@ -1,22 +1,21 @@
 import React from "react";
 
-const AddressModel = ({ map }) => {
+const AddressModel = ({ map, payload }) => {
   return (
-    <div className="flex mx-5 md:flex-row flex-col justify-between">
+    <div className="flex mx-5 md:flex-row flex-col justify-center">
       <div className="flex flex-col ">
-        <p className="font-bold text-[#330E70]">Rivers State</p>
-        <p className=" font-extralight">
-           3 Obilor street, off stadium road, rumuomasi,  Rivers State, 
-          Nigeria.
-        </p>
+        <p className="font-bold text-[#330E70]">{payload.name}</p>
+        <p className=" font-extralight">{payload.address}</p>
 
         <p className="font-bold text-[#F48006]">Opening Hours</p>
         <p className="font-extralight">Mon-Fri: 9am -6pm</p>
         <p className="font-bold text-[#F48006]"> Mobile</p>
-        <p className="font-extralight">+2348024448289</p>
+        <a href={`tel:${payload.telephone}`} className="font-extralight">
+          {payload.telephone}
+        </a>
       </div>
 
-      <div>{map}</div>
+      <div className="md:px-0 px-0">{map}</div>
     </div>
   );
 };
