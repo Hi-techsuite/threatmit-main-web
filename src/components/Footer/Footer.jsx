@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../../assets/images/threat-mit.png";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -26,15 +27,15 @@ const Footer = () => {
           <p>Say Hello</p>
 
           <p>info@threatmit.com</p>
-          <a href="tel:+1 840 841 25 69">+1 840 841 25 69</a>
+          <a href="tel:+2348079397373">+2348079397373</a>
         </div>
       </div>
 
       <div className="flex  justify-between py-3">
         <div className="flex justify-between gap-5">
-          <p>Home</p>
-          <p>Home</p>
-          <p>Home</p>
+          <Link to={"/"}>Home</Link>
+          <Link to={"/services"}>Services</Link>
+          <Link to={"/about-us"}>About</Link>
         </div>
 
         <p>Copyright</p>

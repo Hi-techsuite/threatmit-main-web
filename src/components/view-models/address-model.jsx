@@ -2,8 +2,8 @@ import React from "react";
 
 const AddressModel = ({ map, payload }) => {
   return (
-    <div className="flex mx-5 md:flex-row flex-col justify-center">
-      <div className="flex flex-col ">
+    <div className="flex mx-5 md:flex-row flex-col md:items-start items-center justify-center  gap-5">
+      <div className="flex flex-col   px-5">
         <p className="font-bold text-[#330E70]">{payload.name}</p>
         <p className=" font-extralight">{payload.address}</p>
 
@@ -15,7 +15,7 @@ const AddressModel = ({ map, payload }) => {
         </a>
       </div>
 
-      <div className="md:px-0 px-0">{map}</div>
+      <div className="md:px-1 px-0 md:w-2/4 w-2/6 ">{map}</div>
     </div>
   );
 };
