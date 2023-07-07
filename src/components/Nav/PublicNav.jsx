@@ -9,7 +9,7 @@ import RightModal from "../Modal/RightModal";
 const PublicNav = () => {
   const [mobileNav, setMobildNav] = useState(false);
   return (
-    <div className="flex bg-[#F6EEEE] py-3 px-2 gap-4  items-center ">
+    <div className="flex bg-[#F6EEEE] py-3 px-2 gap-4 justify-between items-center ">
       <div>
         <img src={logo} alt="image" className="w-20 " />
       </div>

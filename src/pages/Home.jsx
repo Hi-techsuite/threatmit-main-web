@@ -10,7 +10,14 @@ const Home = () => {
     <section className="min-h-[100vh] w-full overflow-hidden">
       <Hero />
 
-      <div className="flex md:flex-row flex-col  gap-5  bg-[#330e70]  justify-between  text-white md:items-center py-20  px-5 ">
+      <div
+        className="flex md:flex-row flex-col  gap-5  bg-[#330e70]  justify-between  text-white md:items-center py-20  px-5 "
+        style={{
+          background: " rgb(51, 13, 112)",
+          background:
+            "linear-gradient(17deg, rgba(51,13,112,1) 0%, rgba(244,128,5,1) 100%)",
+        }}
+      >
         <p className=" w-full text-center text-xl font-light">
           We Offer Fast,{" "}
           <span className="font-bold">

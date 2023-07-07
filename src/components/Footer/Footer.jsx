@@ -5,7 +5,14 @@ import { Offices } from "../../config/offices";
 
 const Footer = () => {
   return (
-    <div className=" bg-gray-600 text-white px-5  gap-9 flex flex-col pt-10 ">
+    <div
+      className=" bg-gray-600 text-white px-5  gap-9 flex flex-col pt-10 "
+      style={{
+        background: " rgb(20,15,28)",
+        background:
+          "linear-gradient(17deg, rgba(20,15,28,1) 23%, rgba(48,25,78,1) 59%, rgba(54,27,89,1) 87%)",
+      }}
+    >
       <div className="flex md:flex-row gap-4  flex-col items-center justify-between px-10   pt-6 ">
         <div className="md:w-1/6 flex flex-col gap-3">
           <img src={logo} />
@@ -20,10 +27,13 @@ const Footer = () => {
         <div className="flex flex-col w-2/5 items-center gap-2">
           <p className="font-bold">Address</p>
           <p className="font-light">{Offices[0].address}</p>
-          <button className="bg-[#F48006] px-2 py-3 rounded-md text-xs">
+          <Link
+            to={"contact-us"}
+            className="bg-[#F48006] px-2 py-3 rounded-md text-xs"
+          >
             {" "}
             See All Offices
-          </button>
+          </Link>
         </div>
         <div className="flex flex-col gap-2 items-center ">
           <p className="font-bold">For Enguires</p>
