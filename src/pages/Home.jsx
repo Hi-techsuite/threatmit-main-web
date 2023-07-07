@@ -9,8 +9,9 @@ const Home = () => {
   return (
     <section className="min-h-[100vh] w-full overflow-hidden">
       <Hero />
-      <div className="flex md:flex-row flex-col   gap-4  bg-[#330e70]  text-white md:items-center   py-10 px-5 ">
-        <p className="md:w-2/5 w-full text-center text-xl font-light">
+
+      <div className="flex md:flex-row flex-col  gap-5  bg-[#330e70]  justify-between  text-white md:items-center py-20  px-5 ">
+        <p className=" w-full text-center text-xl font-light">
           We Offer Fast,{" "}
           <span className="font-bold">
             Professional and Exceptional Services

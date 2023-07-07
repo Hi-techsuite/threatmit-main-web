@@ -3,11 +3,7 @@ import SlickCarousel from "./carousels/SlickCarousel";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 const Hero = () => {
-  return (
-    <div>
-      <SlickCarousel />
-    </div>
-  );
+  return <SlickCarousel />;
 };
 
 export default Hero;
