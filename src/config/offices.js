@@ -6,7 +6,7 @@ export const Offices = [
     state: "Rivers State",
     telephone: "+2348024448289",
     map: {
-      src: "https://maps.google.com/maps?width=700&amp;height=440&amp;hl=en&amp;q=%203%20Obilor%20street%2C%20off%20stadium%20road%2C%20rumuomasi%2C%20%20Rivers%20State%2C+(Threat%20MIT)&amp;ie=UTF8&amp;t=&amp;z=10&amp;iwloc=B&amp;output=embed",
+      src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.9045572209034!2d5.20977937501149!3d7.251702692754877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10478fe9355200d1%3A0xd38013a6f3036b2!2s42b%20Oba%20Adesida%20Road%2C%20Alagbaka%20340110%2C%20Akure%2C%20Ondo!5e0!3m2!1sen!2sng!4v1688728106365!5m2!1sen!2sng",
     },
   },
   {
@@ -15,7 +15,7 @@ export const Offices = [
     state: "Edo State",
     telephone: "+2348124315294",
     map: {
-      src: "https://maps.google.com/maps?width=700&amp;height=440&amp;hl=en&amp;q=26%201st%20Ugbor%20Road%2C%20Benin%20City%2C%20Edo%20State+(Threat%20MIT)&amp;ie=UTF8&amp;t=&amp;z=10&amp;iwloc=B&amp;output=embed",
+      src: "https://maps.google.com/maps?width=700&amp;height=440&amp;hl=en&amp;q=26%201st%20Ugbor%20Road%2C%20Benin%20City%2C%20Edo%20State+(Threat%20MIT)&amp;ie=UTF8&amp;t=&amp;z=10&amp;iwloc=B&amp;&output=embed",
     },
   },
   {
@@ -44,7 +44,7 @@ export const Offices = [
     state: "Bayelsa State",
     telephone: "+2348032701977",
     map: {
-      src: "https://maps.google.com/maps?width=700&amp;height=440&amp;hl=en&amp;q=%203%20Obilor%20street%2C%20off%20stadium%20road%2C%20rumuomasi%2C%20%20Rivers%20State%2C+(Threat%20MIT)&amp;ie=UTF8&amp;t=&amp;z=10&amp;iwloc=B&amp;output=embed",
+      src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3975.0825775795097!2d6.309603174992675!3d4.925846145050162!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x106a0412e3e7faab%3A0x8d46ad88e84e5fd9!2sTesio%20Plaza!5e0!3m2!1sen!2sng!4v1688728400760!5m2!1sen!2sng",
     },
   },
   {
@@ -53,7 +53,7 @@ export const Offices = [
     state: "Ondo State",
     telephone: "+2348034055475",
     map: {
-      src: "https://maps.google.com/maps?width=700&amp;height=440&amp;hl=en&amp;q=%203%20Obilor%20street%2C%20off%20stadium%20road%2C%20rumuomasi%2C%20%20Rivers%20State%2C+(Threat%20MIT)&amp;ie=UTF8&amp;t=&amp;z=10&amp;iwloc=B&amp;output=embed",
+      src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.9045572209034!2d5.20977937501149!3d7.251702692754877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10478fe9355200d1%3A0xd38013a6f3036b2!2s42b%20Oba%20Adesida%20Road%2C%20Alagbaka%20340110%2C%20Akure%2C%20Ondo!5e0!3m2!1sen!2sng!4v1688728106365!5m2!1sen!2sng",
     },
   },
 ];
