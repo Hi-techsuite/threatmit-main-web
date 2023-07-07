@@ -41,7 +41,7 @@ const PublicNav = () => {
       </Link>
 
       <Bars3Icon
-        className="w-8 cursor-pointer "
+        className="w-8 cursor-pointer  md:hidden"
         onClick={() => setMobildNav(true)}
       />
 
