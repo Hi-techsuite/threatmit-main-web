@@ -5,6 +5,7 @@ const WhatWeDo = () => {
     <div className="flex min-h-[50vh] h-full justify-around gap-3 w-full px-3 py-10">
       <div className="h-full">
         <img
+          data-aos="fade-left"
           src={securityGuard}
           alt="guard"
           className="min-h-[400px] bg-center object-cover"

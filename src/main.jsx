@@ -5,6 +5,9 @@ import "./index.css";
 // import "./app.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import ErrorPage from "./pages/error-screen.jsx";
 import Root from "./routes/root";
@@ -27,6 +30,7 @@ import "./assets/fonts/Inter-Regular.ttf";
 import "./assets/fonts/Inter-SemiBold.ttf";
 import "./assets/fonts/Inter-Thin.ttf";
 
+Aos.init({});
 const router = createBrowserRouter([
   {
     path: "/",

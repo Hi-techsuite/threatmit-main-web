@@ -7,10 +7,11 @@ import InfoCounter from "../components/InfoCounter";
 
 const Home = () => {
   return (
-    <section className="min-h-[100vh] w-full overflow-hidden">
+    <section className="min-h-[100vh] w-full overflow-hidden flex flex-col ">
       <Hero />
 
       <div
+        data-aod="slide-up"
         className="flex md:flex-row flex-col  gap-5  bg-[#330e70]  justify-between  text-white md:items-center py-20  px-5 "
         style={{
           background: " rgb(51, 13, 112)",

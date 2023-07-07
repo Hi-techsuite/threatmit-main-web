@@ -6,7 +6,17 @@ import imag from "../../assets/images/threat-mit.png";
 
 const SlickCarousel = () => {
   return (
-    <div>
+    <div
+      className="min-h-[80vh] bg-black "
+      style={{
+        borderBottomRightRadius: "50% 20%",
+
+        borderBottomLeftRadius: "50% 20%",
+
+        // border-bottom-left-radius: 50% 40%;
+        // border-bottom-right-radius: 50% 40%;
+      }}
+    >
       <Carousel
         autoPlay
         infiniteLoop
@@ -17,6 +27,7 @@ const SlickCarousel = () => {
       >
         {/*  bg-[url('/src/assets/images/automation.png')] */}
         <section
+          data-aos="zoom-in"
           className="min-h-[70vh] md:min-h-[100vh] relative  bg-cover flex flex-col gap-3   items-center justify-center   "
           style={{
             backgroundPosition: "center",
@@ -25,7 +36,10 @@ const SlickCarousel = () => {
           }}
         >
           <div className=" flex  gap-3  flex-col   right-20  top-32 bottom-30 items-center justify-center  px-20">
-            <p className="font-extrabold text-white  md:text-7xl flex flex-col  text-4xl ">
+            <p
+              data-aos="fade-right"
+              className="font-extrabold text-white  md:text-7xl flex flex-col  text-4xl "
+            >
               We are Always on Guard for Your Family and Business
             </p>
 
