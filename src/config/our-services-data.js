@@ -16,7 +16,8 @@ export const OurServicesData = [
   {
     image: "https://threatmits.com/assets/vehicle-repair.jpeg",
     title: "Vehicle Maintenance / Repairs",
-    details: "we maintain vehicles ",
+    details:
+      "With our professionally trained Auto Mobile experts, we provide our clients with the best vehicle service maintenance and repairs.",
     href: "",
   },
   {
