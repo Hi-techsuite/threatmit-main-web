@@ -5,14 +5,7 @@ import { Offices } from "../../config/offices";
 
 const Footer = () => {
   return (
-    <div
-      className=" bg-gray-600 text-white px-5  gap-9 flex flex-col pt-10 "
-      style={{
-        background: " rgb(20,15,28)",
-        background:
-          "linear-gradient(17deg, rgba(20,15,28,1) 23%, rgba(48,25,78,1) 59%, rgba(54,27,89,1) 87%)",
-      }}
-    >
+    <div className=" bg-gray-600 text-white px-5  gap-9 flex flex-col pt-10 bg-gradient-to-r from-gray-600  ">
       <div className="flex md:flex-row gap-4  flex-col items-center justify-between px-10   pt-6 ">
         <div className="md:w-1/6 flex flex-col gap-3">
           <img src={logo} />
