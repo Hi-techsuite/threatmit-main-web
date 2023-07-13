@@ -5,8 +5,14 @@ import "./index.css";
 // import "./app.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
+// import function to register Swiper custom elements
+import { register } from "swiper/element/bundle";
+// register Swiper custom elements
 import Aos from "aos";
 import "aos/dist/aos.css";
+// import "swiper/swiper.min.css";
+// import "swiper/swiper-bundle.css";
+// import "swiper/swiper-bundle.min.css";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import ErrorPage from "./pages/error-screen.jsx";
@@ -31,6 +37,8 @@ import "./assets/fonts/Inter-SemiBold.ttf";
 import "./assets/fonts/Inter-Thin.ttf";
 
 Aos.init({});
+register();
+
 const router = createBrowserRouter([
   {
     path: "/",
