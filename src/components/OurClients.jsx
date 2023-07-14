@@ -14,7 +14,7 @@ import { nexim_img, shell_img, tulip_img } from "../config/imageFactory";
 const OurClients = () => {
   return (
     <div className="px-5 py-5 ">
-      <Slider {...slider_settings} autoplay autoplaySpeed={2000}>
+      <Slider {...slider_settings} autoplay autoplaySpeed={3000}>
         <OurClientsModel image={nexim_img} />
         <OurClientsModel image={shell_img} />
         <OurClientsModel image={tulip_img} />
