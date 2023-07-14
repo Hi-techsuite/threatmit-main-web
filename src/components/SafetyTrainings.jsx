@@ -1,7 +1,6 @@
 import React from "react";
 import security from "../assets/images/our-services/security.jpeg";
 import { training_courses } from "../config/training-courses";
-import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const SafetyTrainings = () => {
   return (
@@ -16,14 +15,7 @@ const SafetyTrainings = () => {
 
       <div className=" flex  px-5  gap-5">
         <div className="max-h-[200px] max-w-xs">
-          <LazyLoadImage
-            alt={security}
-            // height={}
-            src={security}
-            // src={image.src} // use normal <img> attributes as props
-            // width={image.width}
-          />
-          {/* <img src={security} alt="image" className="" /> */}
+          <img src={security} alt="image" className="" />
         </div>
         <div className="w-3/4">
           <p className="text-[#797C7F] font-bold text-sm">
