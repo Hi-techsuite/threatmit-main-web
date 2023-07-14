@@ -166,7 +166,9 @@ const Root = () => {
         </nav>
       </header> */}
 
-      <Outlet />
+      <div className="min-h-[100vh]">
+        <Outlet />
+      </div>
 
       <Footer />
     </div>
