@@ -128,52 +128,16 @@ const SlickCarousel = () => {
               className="min-h-[70vh] md:min-h-[100vh] relative   bg-gradient-to-r from-[#330d70]/50  to-[#f48005]/30   "
             >
               <div
-                className="   items-center   bottom-10 right-10  absolute w-2/5 px-3 py-5
+                className="    items-center  transform  translate-x-[-50%] translate-y-[-50%] top-[50%]  left-[50%]  absolute  px-3 py-5
                "
               >
-                <p className="text-2xl  font-extralight bg-black text-white px-2 w-fit">
+                <p className="text-2xl  font-bold  text-white px-2 w-fit">
                   MARITIME SECURITY
                 </p>
                 <p
                   // data-aos="fade-right"
                   className=" text-white font-light  md:text-3xl flex flex-col    "
-                >
-                  {/* You can trust us with your ACCESS CONTROL SYSTEM */}
-                </p>
-              </div>
-            </section>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div>
-            <section
-              // data-aos="zoom-in"
-              className="min-h-[70vh] md:min-h-[100vh] relative   bg-gradient-to-r from-[#330d70]/50  to-[#f48005]/30   "
-            >
-              <div className="grid  grid-cols-2 gap-1 px-0 ">
-                <div className="">
-                  <img
-                    src="https://threatmits.com/assets/maritime.jpeg"
-                    alt=""
-                  />
-                  <div
-                    className="   items-center   top-10 right-10 bottom-10 left-10  absolute w-2/5 px-3 py-5
-               "
-                  >
-                    <p className="text-2xl  font-extralight  text-white px-2 w-fit">
-                      SECURITY LOGISTICS
-                    </p>
-                    <p
-                      // data-aos="fade-right"
-                      className=" text-white font-light  md:text-3xl flex flex-col    "
-                    >
-                      You can trust us with your ACCESS CONTROL SYSTEM
-                    </p>
-                  </div>
-                </div>
-                <img src="https://threatmits.com/assets/maritime.jpeg" alt="" />
-                <img src="https://threatmits.com/assets/maritime.jpeg" alt="" />
-                <img src="https://threatmits.com/assets/maritime.jpeg" alt="" />
+                ></p>
               </div>
             </section>
           </div>

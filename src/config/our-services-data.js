@@ -52,8 +52,8 @@ export const OurServicesData = [
   },
   {
     image: "https://threatmits.com/assets/guard-dogs.jpeg",
-    position:
-      "md:object-center object-right min-h-[200px] max-h-[200px] object-cover",
+    // position:
+    //   "md:object-center object-right min-h-[200px] max-h-[200px] object-cover",
     title: "fit-for-purpose guard Dogs",
     details:
       "We Deploy experienced and well trained Staff to serve as security/logistics mangers/supervisors in  organization.",
