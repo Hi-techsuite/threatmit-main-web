@@ -4,6 +4,7 @@ import WhatWeDo from "../components/WhatWeDo";
 import OurServices from "../components/OurServices";
 import SafetyTrainings from "../components/SafetyTrainings";
 import InfoCounter from "../components/InfoCounter";
+import OurClients from "../components/OurClients";
 
 const Home = () => {
   return (
@@ -38,6 +39,8 @@ const Home = () => {
 
       <SafetyTrainings />
       <InfoCounter />
+
+      <OurClients />
     </section>
   );
 };
