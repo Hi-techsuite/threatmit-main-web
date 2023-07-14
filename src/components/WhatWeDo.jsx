@@ -7,6 +7,7 @@ const WhatWeDo = () => {
         <img
           data-aos="fade-left"
           src={securityGuard}
+          loading="lazy"
           alt="guard"
           className="min-h-[400px] bg-center object-cover"
         />

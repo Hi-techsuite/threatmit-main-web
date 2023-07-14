@@ -1,6 +1,6 @@
 export const OurServicesData = [
   {
-    image: "https://threatmits.com/assets/asset-protection2.jpeg",
+    image: "https://threatmits.com/assets/asset-protection.jpeg",
     title: "Asset Protection",
     details:
       "We guarantee protection to Client assets and facilities by deploying commensurate Security cover.",
@@ -14,7 +14,7 @@ export const OurServicesData = [
     href: "",
   },
   {
-    image: "https://threatmits.com/assets/vehicle-repair.jpeg",
+    image: "https://threatmits.com/assets/car-repair.jpeg",
     title: "Vehicle Maintenance / Repairs",
     details:
       "With our professionally trained Auto Mobile experts, we provide our clients with the best vehicle service maintenance and repairs.",
@@ -82,7 +82,7 @@ export const OurServicesData = [
     href: "",
   },
   {
-    image: "https://threatmits.com/assets/cctv.jpeg",
+    image: "https://threatmits.com/assets/drone.jpg",
     title: "Tracking & Surveillance Devices",
     details:
       "We provide our clients with State of the art surveillance equipment, Handheld Human and Vehicle scanners, Electronic security access control system etc.",

@@ -33,13 +33,13 @@ const SlickCarousel = () => {
               // data-aos="zoom-in"
               className="min-h-[70vh] md:min-h-[100vh] relative flex flex-col gap-3 items-center justify-center  w-full h-full  content-[''] top-0 left-0  bg-gradient-to-r from-[#330d70]/30  to-[#f48005]/10   "
             >
-              <div className=" flex  gap-3  flex-col bottom-20  left-10  justify-start   absolute">
+              <div className=" flex  gap-3  flex-col md:bottom-50  md:left-10  md:justify-start justify-center items-center   absolute">
                 <p className="text-2xl text-gray-300 font-light ">
                   we deliver on
                 </p>
                 <p
                   // data-aos="fade-right"
-                  className="font-light text-white  md:text-5xl flex flex-col  text-2xl "
+                  className="font-light text-white  md:text-5xl flex flex-col  text-2xl md:text-start text-center"
                 >
                   <span className="font-bold">Assets </span> and critical
                   infrastructure <span className="font-black"> protection</span>
@@ -47,7 +47,7 @@ const SlickCarousel = () => {
 
                 <Link
                   to={"/online"}
-                  className="btn normal w-2/4  bg-[#F48006]  text-white border-none font-bold  rounded-sm flex  flex-row gap-3"
+                  className="btn normal md:w-2/4  bg-[#F48006]  text-white border-none font-bold  rounded-sm flex  flex-row gap-3"
                 >
                   more information
                 </Link>

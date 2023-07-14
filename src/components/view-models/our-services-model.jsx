@@ -9,7 +9,7 @@ const OurServicesModel = ({ image, title, description, href, position }) => {
   }
   return (
     <div
-      className={`flex  relative flex-col gap-4  my-5 md:px-0 px-7 h-[400px] w-full  group  bg-red-300 bg-[url(${image})] `}
+      className={`flex  relative flex-col gap-4  my-5 md:px-0 px-7 h-[400px] w-full  group  bg-[url(${image})] `}
       style={{
         backgroundImage: `url(${image})`,
         backgroundRepeat: "no-repeat",
