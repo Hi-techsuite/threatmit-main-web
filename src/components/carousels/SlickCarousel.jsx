@@ -85,25 +85,18 @@ const SlickCarousel = () => {
           <div className=" bg-[url('https://threatmits.com/assets/access-control.jpeg')]   bg-cover   bg-center">
             <section
               // data-aos="zoom-in"
-              className="min-h-[70vh] md:min-h-[100vh] relative   bg-gradient-to-r from-[#330d70]/50  to-[#f48005]/30   "
+              className="min-h-[70vh] md:min-h-[100vh] relative flex flex-col gap-3 items-center justify-center  w-full h-full  content-[''] top-0 left-0  bg-gradient-to-r from-[#330d70]/30  to-[#f48005]/10   "
             >
-              <div className=" flex  gap-3  flex-col left-20 top-48  md:justify-start justify-center items-start   absolute">
+              <div className=" flex  gap-3  flex-col      justify-start  px-3   absolute">
+                <p className="text-4xl text-gray-300 font-semibold">
+                  you can trust us with your
+                </p>
                 <p
                   // data-aos="fade-right"
-                  className="font-light text-white  md:text-5xl flex flex-col  text-2xl md:text-start text-center"
+                  className="font-medium text-white  md:text-6xl flex flex-col  text-4xl w-full  "
                 >
-                  You can trust us with your{" "}
-                  <span className="font-bold text-4xl">
-                    ACCESS CONTROL SYSTEM
-                  </span>
+                  Access Control System
                 </p>
-                {/* 
-                <Link
-                  to={"/online"}
-                  className="btn normal md:w-2/4  bg-[#F48006]  text-white border-none font-bold  rounded-sm flex  flex-row gap-3"
-                >
-                  more information
-                </Link> */}
               </div>
             </section>
           </div>
@@ -112,25 +105,28 @@ const SlickCarousel = () => {
           <div className=" bg-[url('https://threatmits.com/assets/car-repair.jpeg')]   bg-cover   bg-center">
             <section
               // data-aos="zoom-in"
-              className="min-h-[70vh] md:min-h-[100vh] relative   bg-gradient-to-l from-[#330d70]/30  to-[#f48005]/10   "
+              className="min-h-[70vh] md:min-h-[100vh] relative flex flex-col gap-3 items-center justify-center  w-full h-full  content-[''] top-0 left-0  bg-gradient-to-r from-[#330d70]/30  to-[#f48005]/10   "
             >
-              <div className=" flex  gap-3  flex-col left-20 top-48  md:justify-start justify-center items-start   absolute">
+              <div className=" flex  gap-3  flex-col md:bottom-50  md:left-10  md:justify-start justify-center items-start   absolute">
+                <p className=" text-gray-200 font-light text-2xl md:text-5xl  ">
+                  We guarantee excellent delivery on
+                </p>
                 <p
                   // data-aos="fade-right"
-                  className="font-light text-white  md:text-4xl flex flex-col  text-2xl md:text-start text-center"
+                  className="font-light text-white  md:text-5xl flex flex-col  text-2xl md:text-start "
                 >
-                  We guarantee excellent delivery on{" "}
-                  <span className="font-bold text-4xl text-white">
+                  <span className="font-black">
+                    {" "}
                     Auto Mobile Repairs/Maintenance
                   </span>
                 </p>
-                {/* 
+
                 <Link
                   to={"/online"}
                   className="btn normal md:w-2/4  bg-[#F48006]  text-white border-none font-bold  rounded-sm flex  flex-row gap-3"
                 >
-                  more information
-                </Link> */}
+                  Read More
+                </Link>
               </div>
             </section>
           </div>
@@ -139,18 +135,15 @@ const SlickCarousel = () => {
           <div className=" bg-[url('https://threatmits.com/assets/maritime.jpeg')]   bg-cover   bg-center">
             <section
               // data-aos="zoom-in"
-              className="min-h-[70vh] md:min-h-[100vh] relative   bg-gradient-to-r from-[#330d70]/50  to-[#f48005]/30   "
+              className="min-h-[70vh] md:min-h-[100vh] relative flex flex-col gap-3 items-center justify-center  w-full h-full  content-[''] top-0 left-0  bg-gradient-to-r from-[#330d70]/30  to-[#f48005]/10   "
             >
-              <div
-                className="    items-center  transform  translate-x-[-50%] translate-y-[-50%] top-[50%]  left-[50%]  absolute  px-3 py-5
-               "
-              >
-                <p className="text-6xl  font-bold uppercase  text-opacity-90 text-gray-200 px-2  text-center">
+              <div className=" flex  gap-3  flex-col      justify-start  px-3   absolute">
+                <p className="text-4xl text-gray-300 font-semibold">
                   Maritime/Offshore Security
                 </p>
                 <p
                   // data-aos="fade-right"
-                  className=" text-white font-extralight  md:text-3xl flex flex-col  py-10   "
+                  className="font-medium text-white  md:text-6xl flex flex-col  text-3xl  md:w-2/4 "
                 >
                   We provide world class maritime security services that exceed
                   best industry practices...
