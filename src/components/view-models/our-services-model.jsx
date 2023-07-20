@@ -31,7 +31,7 @@ const OurServicesModel = ({ image, title, description, href, position }) => {
         <p className="font-light text-white px-4 text-center">{description}</p>
 
         <button className="bg-[#f48005]  px-5 py-2  rounded-full text-white">
-          Learn more
+          Get in Touch
         </button>
       </div>
     </div>

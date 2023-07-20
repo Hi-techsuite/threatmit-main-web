@@ -19,7 +19,7 @@ const PublicNav = () => {
         <img src={logo} alt="image" className="w-20 " />
       </div>
       <div className="flex ">
-        <div className="   gap-4 px-24 hidden md:flex text-black font-bold  lg:flex sm:hidden py-1">
+        <div className="   gap-7 px-24 hidden md:flex text-black font-bold  lg:flex sm:hidden py-1">
           {navMenu &&
             navMenu.length > 1 &&
             navMenu.map((menu, index) => {
@@ -28,11 +28,17 @@ const PublicNav = () => {
                   to={menu.link}
                   className={({ isActive, isPending }) =>
                     isActive
-                      ? "after:h-1  after:bg-gray-700 after:absolute relative  after:w-full after:-bottom-1 after:left-0  after:content-['']"
-                      : "font-light"
+                      ? "font-bold"
+                      : "font-light hover:font-bold  relative group  transition-all ease-in-out "
                   }
                 >
-                  <p>{menu.name}</p>
+                  <p className="group-hover:scale-125 group-hover:text-transparent group-hover:bg-clip-text  group-hover:bg-gradient-to-tr from-[#340d70] to-[#f48005]">
+                    {menu.name}
+                  </p>
+                  {/* <span className="absolute h-0.5 w-0  group-hover:w-full group-hover:transition-all  ease-in-out  delay-100  bg-[#340d70]  px-0">
+                    {" "}
+                    &nbsp;
+                  </span> */}
                 </NavLink>
               );
             })}

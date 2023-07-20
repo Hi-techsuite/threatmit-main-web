@@ -1,7 +1,7 @@
 export const OurServicesData = [
   {
     image: "https://threatmits.com/assets/pipeline.jpeg",
-    title: "Asset Protection",
+    title: "Asset and Critical Control Protection",
     details:
       "We guarantee protection to Client assets and facilities by deploying commensurate Security cover.",
     href: "",
@@ -24,6 +24,12 @@ export const OurServicesData = [
     title: "Auto Mobile Repairs / Maintenance",
     details:
       "With our professionally trained Auto Mobile experts, we provide our clients with the best vehicle service maintenance and repairs.",
+    href: "",
+  },
+  {
+    image: "https://threatmits.com/assets/access-control.jpeg",
+    title: "Access Control",
+    details: "You can trust us with your access control system",
     href: "",
   },
   {

@@ -107,7 +107,7 @@ const SlickCarousel = () => {
               className="min-h-[70vh] md:min-h-[100vh] relative flex flex-col gap-3 items-center justify-center  w-full h-full  content-[''] top-0 left-0  bg-gradient-to-r from-[#330d70]/30  to-[#f48005]/10   "
             >
               <div className=" flex  gap-3  flex-col md:bottom-50  md:left-10  md:justify-start justify-center items-start   absolute">
-                <p className=" text-gray-200 font-light text-2xl md:text-5xl  ">
+                <p className=" text-gray-200 font-light text-xl md:text-5xl  ">
                   We guarantee excellent delivery on
                 </p>
                 <p
