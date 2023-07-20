@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import security from "../../assets/images/our-services/security.jpeg";
+import Modal1 from "../Modal/Modal1";
+import GetInTouch2 from "../GetInTouch2";
 
 const OurServicesModel = ({ image, title, description, href, position }) => {
+  const [modal, setModal] = useState(false);
   let finalImage = image;
 
   if (!image.includes("https://")) {
@@ -30,10 +33,17 @@ const OurServicesModel = ({ image, title, description, href, position }) => {
         <p className="font-black text-white text-center">{title}</p>
         <p className="font-light text-white px-4 text-center">{description}</p>
 
-        <button className="bg-[#f48005]  px-5 py-2  rounded-full text-white">
+        <button
+          onClick={() => setModal(true)}
+          className="bg-[#f48005]  px-5 py-2  rounded-full text-white"
+        >
           Get in Touch
         </button>
       </div>
+
+      <Modal1 visible={modal} onClose={() => setModal(false)}>
+        <GetInTouch2 />
+      </Modal1>
     </div>
   );
 };
