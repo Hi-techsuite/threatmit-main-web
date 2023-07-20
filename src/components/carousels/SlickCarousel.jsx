@@ -14,6 +14,7 @@ import {
   EffectCube,
   EffectFade,
 } from "swiper/modules";
+import SliderButton from "../Buttons/SliderButton";
 const SlickCarousel = () => {
   return (
     <div>
@@ -53,12 +54,7 @@ const SlickCarousel = () => {
                   </span>
                 </p>
 
-                <Link
-                  to={"/online"}
-                  className="btn normal md:w-2/4  bg-[#F48006]  text-white border-none font-bold  rounded-sm flex  flex-row gap-3"
-                >
-                  more information
-                </Link>
+                <SliderButton href={"/online"} />
               </div>
             </section>
           </div>
@@ -77,6 +73,8 @@ const SlickCarousel = () => {
                 >
                   Intelligently coordinated coverage, nothing is out of sight
                 </p>
+
+                <SliderButton href={"/online"} />
               </div>
             </section>
           </div>
@@ -85,9 +83,9 @@ const SlickCarousel = () => {
           <div className=" bg-[url('https://threatmits.com/assets/access-control.jpeg')]   bg-cover   bg-center">
             <section
               // data-aos="zoom-in"
-              className="min-h-[70vh] md:min-h-[100vh] relative flex flex-col gap-3 items-center justify-center  w-full h-full  content-[''] top-0 left-0  bg-gradient-to-r from-[#330d70]/30  to-[#f48005]/10   "
+              className="min-h-[70vh] md:min-h-[100vh] relative flex flex-col gap-3 items-start justify-center  w-full h-full  content-[''] top-0 left-0  bg-gradient-to-r from-[#330d70]/30  to-[#f48005]/10   "
             >
-              <div className=" flex  gap-3  flex-col      justify-start  px-3   absolute">
+              <div className=" flex  gap-3  flex-col      justify-start  px-10   absolute">
                 <p className="text-4xl text-gray-300 font-semibold">
                   you can trust us with your
                 </p>
@@ -97,6 +95,7 @@ const SlickCarousel = () => {
                 >
                   Access Control System
                 </p>
+                <SliderButton href={"/online"} />
               </div>
             </section>
           </div>
@@ -121,12 +120,7 @@ const SlickCarousel = () => {
                   </span>
                 </p>
 
-                <Link
-                  to={"/online"}
-                  className="btn normal md:w-2/4  bg-[#F48006]  text-white border-none font-bold  rounded-sm flex  flex-row gap-3"
-                >
-                  Read More
-                </Link>
+                <SliderButton href={"/ "} />
               </div>
             </section>
           </div>
@@ -148,6 +142,7 @@ const SlickCarousel = () => {
                   We provide world class maritime security services that exceed
                   best industry practices...
                 </p>
+                <SliderButton href={"/ "} />
               </div>
             </section>
           </div>
