@@ -2,7 +2,12 @@ import React, { useState } from "react";
 import logo from "../../assets/images/threat-mit.png";
 import { navMenu } from "../../config/nav_menu";
 import { Link, NavLink } from "react-router-dom";
-import { Bars3Icon, HomeIcon, XMarkIcon } from "@heroicons/react/24/outline";
+import {
+  Bars3Icon,
+  HomeIcon,
+  PhoneIcon,
+  XMarkIcon,
+} from "@heroicons/react/24/outline";
 import Modal1 from "../Modal/Modal1";
 import RightModal from "../Modal/RightModal";
 
@@ -35,10 +40,11 @@ const PublicNav = () => {
       </div>
 
       <a
-        href="tel:+234807939373"
-        className="text-[#330E70] hidden md:flex font-bold"
+        href="tel:+2348136042622"
+        className="text-[#330E70] hidden md:flex font-bold items-center group"
       >
-        +2348079397373
+        <PhoneIcon className="w-5 group-hover:font-bold " />
+        +234 813 604 2622
       </a>
 
       <Link to={"/contact-us"} className="btn bg-[#F48006] rounded-sm ">
