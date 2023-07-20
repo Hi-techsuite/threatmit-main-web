@@ -7,6 +7,12 @@ export const OurServicesData = [
     href: "",
   },
   {
+    image: "https://threatmits.com/assets/security-4.jpeg",
+    title: "Security Guards",
+    details: "On request, we deploy well trained and fit-for-purpose guards ",
+    href: "",
+  },
+  {
     image: "https://threatmits.com/assets/security-professional.jpeg",
     title: "Security Professionals",
     details:
@@ -15,7 +21,7 @@ export const OurServicesData = [
   },
   {
     image: "https://threatmits.com/assets/car-repair.jpeg",
-    title: "Vehicle Maintenance / Repairs",
+    title: "Auto Mobile Repairs / Maintenance",
     details:
       "With our professionally trained Auto Mobile experts, we provide our clients with the best vehicle service maintenance and repairs.",
     href: "",
@@ -24,8 +30,7 @@ export const OurServicesData = [
     image: "https://threatmits.com/assets/suv.jpeg",
 
     title: "Executive Car Hire",
-    details:
-      "We Deploy experienced and well trained Staff to serve as security/logistics mangers/supervisors in  organization.",
+    details: "We deploy luxury cars fit for every occasion...",
     href: "",
   },
   {
@@ -33,21 +38,20 @@ export const OurServicesData = [
 
     title: "Mini Coach Hire Services",
     details:
-      "We have a fleet of Well maintained coaches. These buses are driven by well trained chauffeurs.",
+      "We provide organizations with mini coaches and buses for corporate movements...",
     href: "",
   },
   {
     image: "https://threatmits.com/assets/convoy.jpeg",
-    title: "Operational Trucks for Armed men",
+    title: "Operational Trucks ",
     details:
-      "We Deploy experienced and well trained Staff to serve as security/logistics mangers/supervisors in  organization.",
+      "We have fleet of operational vehicles for security movements and operations",
     href: "",
   },
   {
     image: "https://threatmits.com/assets/armed-forces2.jpeg",
     title: "Deployment of Armed Security Personnel",
-    details:
-      "We Deploy experienced and well trained Staff to serve as security/logistics mangers/supervisors in  organization.",
+    details: "On request, we deploy armed security personnel...",
     href: "",
   },
   {
@@ -56,15 +60,14 @@ export const OurServicesData = [
     //   "md:object-center object-right min-h-[200px] max-h-[200px] object-cover",
     title: "fit-for-purpose guard Dogs",
     details:
-      "We Deploy experienced and well trained Staff to serve as security/logistics mangers/supervisors in  organization.",
+      "Our security dogs are well trained to ensure effective detection...",
     href: "",
   },
   {
     image: "https://threatmits.com/assets/maritime.jpeg",
 
-    title: "Offshore Security",
-    details:
-      "We have a fleet of Well maintained coaches. These buses are driven by well trained chauffeurs.",
+    title: "Maritme/Offshore Security",
+    details: "We also ensure your protection even on waterways...",
     href: "",
   },
   // {
@@ -93,7 +96,7 @@ export const OurServicesData = [
 
     title: "Cyber Security",
     details:
-      "We provide our clients with State of the art surveillance equipment, Handheld Human and Vehicle scanners, Electronic security access control system etc.",
+      "We safeguard the confidentiality and integrity of your data and information...",
     href: "",
   },
 ];
