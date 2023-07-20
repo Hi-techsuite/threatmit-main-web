@@ -47,9 +47,9 @@ const PublicNav = () => {
 
       <a
         href="tel:+2348136042622"
-        className="text-[#330E70] hidden md:flex font-bold items-center group"
+        className="text-[#330E70] hidden md:flex font-bold items-center group  hover:text-[#F48006]"
       >
-        <PhoneIcon className="w-5 group-hover:skew-y-3   " />
+        <PhoneIcon className="w-5 group-hover:scale-105 group-hover:rotate-45 group-hover:text-[#F48006]  transition-all ease-linear " />
         +234 813 604 2622
       </a>
 
