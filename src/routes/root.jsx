@@ -15,7 +15,7 @@ const Root = () => {
           href={`https://wa.me/${Offices[0].telephone}`}
         >
           <IoLogoWhatsapp className=" text-green-600" size={"50px"} />
-          <span>Chat us Now!!</span>
+          {/* <span>Chat us Now!!</span> */}
         </a>
       </div>
       <PublicNav />
