@@ -20,10 +20,10 @@ const SlickCarousel = () => {
       <Swiper
         // spaceBetween={50}
 
-        autoplay={{
-          delay: 2500,
-          disableOnInteraction: false,
-        }}
+        // autoplay={{
+        //   delay: 2500,
+        //   disableOnInteraction: false,
+        // }}
         slidesPerView={1}
         modules={[Navigation, Pagination, A11y, Scrollbar, EffectCube]}
         // navigation
@@ -150,8 +150,11 @@ const SlickCarousel = () => {
                 </p>
                 <p
                   // data-aos="fade-right"
-                  className=" text-white font-light  md:text-3xl flex flex-col    "
-                ></p>
+                  className=" text-white font-extralight  md:text-3xl flex flex-col  py-10   "
+                >
+                  We provide world class maritime security services that exceed
+                  best industry practices...
+                </p>
               </div>
             </section>
           </div>
