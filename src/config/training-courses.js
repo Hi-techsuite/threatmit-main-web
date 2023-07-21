@@ -1,36 +1,58 @@
 export const training_courses = [
   {
-    title: "Information Security Leadership Protecting",
+    title: "Information Security",
   },
   {
-    title: "Critical National Infrastructure Risk",
+    title: "Leadership",
   },
   {
-    title: "Management Militancy and Terrorism",
+    title: "Protecting Critical National Infrastructure",
   },
   {
-    title: "Managing Workplace violence Managing",
+    title: "Risk Management",
   },
   {
-    title: "workplace Violence Incident Management",
+    title: " Militancy and Terrorism",
   },
   {
-    title: "Vulnerability Assessment Investigation",
+    title: "Emergency Management",
   },
   {
-    title: "Management Kidnap Management Threat",
+    title: "Managing workplace Violence",
   },
   {
-    title: "Identification Kidnap Management Basic",
+    title: "Incident Management System",
   },
   {
-    title: "Security Awareness Basic Personal Security",
+    title: "Vulnerability Assessment",
   },
   {
-    title: "Crisis Management Conflict Management",
+    title: "Investigation Management",
+  },
+
+  {
+    title: "Threat Identification ",
+  },
+
+  {
+    title: "Basic Secuirity Awareness ",
   },
   {
-    title:
-      "Intelligence Report Writing I & II Current trends in Investigations Information gathering & Surveillance I & II",
+    title: "Basic Personal Security ",
+  },
+  {
+    title: "Crisis Management ",
+  },
+  {
+    title: "Conflict Management ",
+  },
+  {
+    title: "Intelligence Report Writing I & II ",
+  },
+  {
+    title: "Current trends in Investigations",
+  },
+  {
+    title: "Information gathering & Surveillance I & II",
   },
 ];

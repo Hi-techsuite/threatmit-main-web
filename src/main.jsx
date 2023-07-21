@@ -14,6 +14,8 @@ import "aos/dist/aos.css";
 // import "swiper/swiper-bundle.css";
 // import "swiper/swiper-bundle.min.css";
 
+import "react-toastify/dist/ReactToastify.css";
+
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import ErrorPage from "./pages/error-screen.jsx";
 import Root from "./routes/root";

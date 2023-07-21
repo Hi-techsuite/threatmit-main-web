@@ -1,31 +1,125 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { training_courses } from "../config/training-courses";
+import FormInput from "../components/Inputs/FormInput";
+import { standard_training } from "../config/standard-training";
+import { ToastContainer, toast } from "react-toastify";
 
 const Training = () => {
+  const [success, setSuccess] = useState(false);
+
+  const courses_list = standard_training.concat(training_courses);
+
+  const [values, setValue] = useState({
+    fullname: "",
+    email: "",
+    phone_number: "",
+    address: "",
+    course: courses_list[0].title,
+  });
+  const sendEmail = async (e) => {
+    e.preventDefault();
+
+    const { fullname, email, phone_number, course } = values;
+
+    //petty validation
+
+    if (
+      fullname === "" ||
+      email === "" ||
+      phone_number === "" ||
+      course === ""
+    ) {
+      toast.warn("Please fill all information");
+      return;
+    }
+
+    const response = await COMPOSE_EMAIL({
+      to: "info@vitalskillsda.com",
+      // from: "goodluckcanhelp@gmail.c",
+      message: `${message} \n Details: \r  Name: ${fullname} \r email: ${email} \r Mobile: ${phone_number}  `,
+      subject: `Contact Mail from: ${fullname} - ${email}`,
+    });
+
+    console.log(response);
+    if (response.isOk) {
+      setSuccess(true);
+      navigate(0);
+    }
+  };
+
+  const handleOnChnage = (e) => {
+    const { value, id } = e.target;
+
+    setValue({ ...values, [id]: value });
+  };
+
   return (
     <div className="flex flex-col gap-5 px-5 py-10">
       <p className="text-center font-bold text-2xl">
         Enroll in our Training courses
       </p>
-      <div className="w-3/4">
-        <div className="py-3">
-          {training_courses.map((course, index) => {
-            return (
-              <p className=" md:text-lg text-xs text-[#797C7F] py-3">
-                <span>
-                  {" "}
-                  {index + 1}. {course.title}
-                </span>
-              </p>
-            );
-          })}
-        </div>
-        <div className="">
-          <button className="bg-[#340d70] text-white px-6 rounded-sm hover:bg-[#f48005] py-2 hover:font-bold">
-            Enroll Now
-          </button>
+      <div className="">
+        <p className="text-xl font-light pb-10 text-center">
+          Fill the form below and we'll reach out to you
+        </p>
+        <div className=" md:w-2/4  md:mx-auto md:bg-gray-100 md:px-5 md:pt-16 rounded-md md:pb-20 px-6">
+          <form action="" className="flex flex-col gap-5" onSubmit={sendEmail}>
+            <div className="flex gap-3">
+              <FormInput
+                id={"fullname"}
+                placeholder={"fullname"}
+                value={values.fullname}
+                onChange={handleOnChnage}
+                type={"text"}
+              />
+              <FormInput
+                id={"email"}
+                placeholder={"Email"}
+                value={values.email}
+                onChange={handleOnChnage}
+                type={"email"}
+              />
+            </div>
+            <div className="flex gap-3">
+              <FormInput
+                id={"phone_number"}
+                placeholder={"Phone Number"}
+                value={values.phone_number}
+                onChange={handleOnChnage}
+                type={"text"}
+              />
+              <FormInput
+                id={"state"}
+                placeholder={"Location"}
+                value={values.address}
+                onChange={handleOnChnage}
+                type={"text"}
+              />
+            </div>
+
+            <div className="py-5 flex flex-col gap-4">
+              <p className="font-semibold">Interested Course</p>
+
+              <select
+                id="course"
+                onChange={handleOnChnage}
+                className="py-4 px-3 rounded-md outline-none bg-gray-200 w-full"
+              >
+                {courses_list && courses_list.length >= 1
+                  ? courses_list.map((data, index) => {
+                      return <option value={data.title}>{data.title}</option>;
+                    })
+                  : null}
+              </select>
+            </div>
+            <button className="bg-[#340d70] text-white px-6 rounded-sm hover:bg-[#f48005] py-2 hover:font-bold">
+              Enroll Now
+            </button>
+          </form>
         </div>
       </div>
+
+      <ToastContainer />
     </div>
   );
 };

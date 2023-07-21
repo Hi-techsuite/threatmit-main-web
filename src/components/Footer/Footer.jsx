@@ -20,17 +20,17 @@ const Footer = () => {
         <div className="flex flex-col w-2/5 items-center gap-2">
           <p className="font-bold">Address</p>
           <p className="font-light">{Offices[0].address}</p>
-          <Link
-            to={"contact-us"}
-            className="bg-[#F48006] px-2 py-3 rounded-md text-xs"
+          <a
+            href={"/contact-us"}
+            className="bg-[#F48006] px-4 py-3 rounded-full text-xs"
           >
             See All Offices
-          </Link>
+          </a>
         </div>
         <div className="flex flex-col gap-2 items-center ">
           <p className="font-bold">For Enguires</p>
 
-          <a href=" mailto:info@threatmit.com">info@threatmit.com</a>
+          <a href=" mailto:info@threatmits.com">info@threatmits.com</a>
           <a href="tel:+2348079397373" className="font-semibold cursor-pointer">
             +2348079397373
           </a>

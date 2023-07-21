@@ -21,10 +21,10 @@ const SlickCarousel = () => {
       <Swiper
         // spaceBetween={50}
 
-        autoplay={{
-          delay: 2500,
-          disableOnInteraction: false,
-        }}
+        // autoplay={{
+        //   delay: 2500,
+        //   disableOnInteraction: false,
+        // }}
         slidesPerView={1}
         modules={[Navigation, Pagination, A11y, Scrollbar, EffectCube]}
         // navigation
@@ -39,15 +39,17 @@ const SlickCarousel = () => {
               // data-aos="zoom-in"
               className="min-h-[70vh] md:min-h-[100vh] relative flex flex-col gap-3 items-center justify-center  w-full h-full  content-[''] top-0 left-0  bg-gradient-to-r from-[#330d70]/30  to-[#f48005]/10   "
             >
-              <div className=" flex  gap-3  flex-col md:bottom-50  md:left-10  md:justify-start justify-center items-start   absolute">
-                <p className=" text-gray-200 font-light text-2xl md:text-5xl  ">
+              <div className=" flex  gap-3  flex-col md:bottom-50  md:left-10 items-start  absolute">
+                <p className=" text-gray-200 font-light text-2xl md:text-5xl flex flex-col  ">
                   we deliver on
                 </p>
                 <p
                   // data-aos="fade-right"
-                  className="font-light text-white  md:text-5xl flex flex-col  text-2xl md:text-start text-center"
+                  className="font-light text-white  md:text-5xl flex flex-col  text-2xl md:text-start text-start"
                 >
-                  <span className="font-bold">Assets </span> and{" "}
+                  <span className="font-bold">
+                    Assets <span className="font-light">and</span>{" "}
+                  </span>
                   <span className="font-black">
                     {" "}
                     Critical infrastructure protection
@@ -69,7 +71,7 @@ const SlickCarousel = () => {
                 <p className="text-4xl text-gray-300 font-semibold">with our</p>
                 <p
                   // data-aos="fade-right"
-                  className="font-medium text-white  md:text-6xl flex flex-col  text-4xl w-2/4  "
+                  className="font-medium text-white  md:text-6xl flex flex-col  text-3xl w-2/4  "
                 >
                   Intelligently coordinated coverage, nothing is out of sight
                 </p>
@@ -91,7 +93,7 @@ const SlickCarousel = () => {
                 </p>
                 <p
                   // data-aos="fade-right"
-                  className="font-medium text-white  md:text-6xl flex flex-col  text-4xl w-full  "
+                  className="font-medium text-white  md:text-6xl flex flex-col  text-3xl w-full  "
                 >
                   Access Control System
                 </p>

@@ -3,7 +3,7 @@ import securityGuard from "../assets/images/security-guard.jpeg";
 const WhatWeDo = () => {
   return (
     <div className="flex min-h-[30vh] h-full  gap-3 w-full px-10 py-10 ">
-      <div className="flex flex-col pt-10 gap-5 ">
+      <div className="flex flex-col pt-10 gap-5 justify-center items-center ">
         <p className="text-2xl  md:text-4xl">
           What
           <span className="font-bold  "> we do...</span>
