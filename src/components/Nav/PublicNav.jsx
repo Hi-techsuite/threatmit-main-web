@@ -16,7 +16,7 @@ const PublicNav = () => {
   return (
     <div className="flex bg-[#F6EEEE] py-3 px-2 gap-4 justify-between items-center ">
       <div>
-        <img src={logo} alt="image" className="w-20 " />
+        <img src={logo} alt="image" className="w-[150px] " />
       </div>
       <div className="flex ">
         <div className="   gap-7 px-24 hidden md:flex text-black font-bold  lg:flex sm:hidden py-1">
