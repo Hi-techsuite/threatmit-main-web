@@ -3,8 +3,13 @@ import { training_courses } from "../config/training-courses";
 import FormInput from "../components/Inputs/FormInput";
 import { standard_training } from "../config/standard-training";
 import { ToastContainer, toast } from "react-toastify";
+import { COMPOSE_EMAIL } from "../services/mailServices";
+import { DEFUALT_EMAIL_SENDER } from "../core/constants";
+import { useNavigate } from "react-router-dom";
 
 const Training = () => {
+  const navigate = useNavigate();
+
   const [success, setSuccess] = useState(false);
 
   const courses_list = standard_training.concat(training_courses);
@@ -19,7 +24,7 @@ const Training = () => {
   const sendEmail = async (e) => {
     e.preventDefault();
 
-    const { fullname, email, phone_number, course } = values;
+    const { fullname, email, phone_number, course, address } = values;
 
     //petty validation
 
@@ -34,17 +39,24 @@ const Training = () => {
     }
 
     const response = await COMPOSE_EMAIL({
-      to: "info@vitalskillsda.com",
+      to: `${DEFUALT_EMAIL_SENDER}, goodluckcanhelp@gmail.com`,
       // from: "goodluckcanhelp@gmail.c",
-      message: `${message} \n Details: \r  Name: ${fullname} \r email: ${email} \r Mobile: ${phone_number}  `,
+      message: `${course} \n Details: \r  Name: ${fullname} \r email: ${email} \r Mobile: ${phone_number}  `,
       subject: `Contact Mail from: ${fullname} - ${email}`,
     });
 
     console.log(response);
     if (response.isOk) {
       setSuccess(true);
-      navigate(0);
+      toast.success("Message sent successfully");
+
+      setTimeout(() => {
+        navigate("/");
+      }, 3000);
+      return;
     }
+
+    toast.error("An error occured");
   };
 
   const handleOnChnage = (e) => {
@@ -89,7 +101,7 @@ const Training = () => {
                 type={"text"}
               />
               <FormInput
-                id={"state"}
+                id={"address"}
                 placeholder={"Location"}
                 value={values.address}
                 onChange={handleOnChnage}
