@@ -6,7 +6,11 @@ const WhyOrganizationNeedUs = () => {
   return (
     <div className="flex md:flex-row flex-col py-4 px-3 gap-10 w-3/4 mx-auto">
       <div className="relative md:w-2/6">
-        <img src={security_guard_img} alt="image" className="" />
+        <img
+          src={"https://threatmits.com/assets/question.png"}
+          alt="image"
+          className=""
+        />
         <div
           className={` hidden md:flex absolute bottom-4 -right-5 h-[100px] w-[100px] bg-[${purple}]`}
         >

@@ -19,19 +19,19 @@ const Modal1 = ({ visible, children, onClose, heading }) => {
       }
     >
       <div
+        onClick={handleClose}
+        className=" w-full cursor-pointer text-right px-3 flex flex-row justify-end -ml-40 mb-5"
+      >
+        <XMarkIcon
+          id="master"
+          className="w-6 text-black hover:text-red-600"
+          onClick={handleClose}
+        />
+      </div>
+      <div
         className="min-h-[250px] md:w-2/4 rounded bg-white px-10 py-10   sm:w-3/4  "
         onDoubleClick={() => onClose}
       >
-        <div
-          onClick={handleClose}
-          className=" w-full  text-right px-3 flex flex-row justify-end"
-        >
-          <XMarkIcon
-            id="master"
-            className="w-6 text-gray-400 hover:text-red-600"
-            onClick={handleClose}
-          />
-        </div>
         {children}
       </div>
     </div>

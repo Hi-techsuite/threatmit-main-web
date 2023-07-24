@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import logo from "../../assets/images/threat-mit.png";
 import { navMenu } from "../../config/nav_menu";
 import { Link, NavLink } from "react-router-dom";
 import {
@@ -10,13 +9,14 @@ import {
 } from "@heroicons/react/24/outline";
 import Modal1 from "../Modal/Modal1";
 import RightModal from "../Modal/RightModal";
+import Logo from "../Logo";
 
 const PublicNav = () => {
   const [mobileNav, setMobildNav] = useState(false);
   return (
     <div className="flex bg-[#F6EEEE] py-3 px-2 gap-4 justify-between items-center ">
       <div>
-        <img src={logo} alt="image" className="w-[150px] " />
+        <Logo />
       </div>
       <div className="flex ">
         <div className="   gap-7 px-24 hidden md:flex text-black font-bold  lg:flex sm:hidden py-1">

@@ -2,10 +2,10 @@ import React from "react";
 
 const AddressModel = ({ map, payload }) => {
   return (
-    <div className="flex mx-5 md:flex-row flex-col md:items-start items-center justify-center  gap-5">
-      <div className="flex flex-col   px-5">
+    <div className=" flex flex-col gap-7 justify-center items-center">
+      <div className="flex flex-col items-center  px-5">
         <p className="font-bold text-[#330E70]">{payload.name}</p>
-        <p className=" font-extralight">{payload.address}</p>
+        <p className=" font-extralight w-2/3 text-center">{payload.address}</p>
 
         <p className="font-bold text-[#F48006]">Opening Hours</p>
         <p className="font-extralight">Mon-Fri: 9am -6pm</p>
@@ -15,7 +15,9 @@ const AddressModel = ({ map, payload }) => {
         </a>
       </div>
 
-      <div className="md:px-1 px-0 md:w-2/4 w-2/6 ">{map}</div>
+      <div className="md:w-3/4 w-1/4 flex justify-center items-center">
+        {map}
+      </div>
     </div>
   );
 };
