@@ -4,7 +4,7 @@ import { ourValues } from "../config/ourValues";
 
 const OurValues = () => {
   return (
-    <div className="bg-[#f8f8f8] py-10 cursor-pointer">
+    <div className="bg-[#edf6fd] py-10 cursor-pointer  bg-center bg-cover  bg-no-repeat">
       <p className="font-light text-2xl  py-10 text-center">
         Our <span className="font-bold ">Values</span>
       </p>

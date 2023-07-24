@@ -5,7 +5,7 @@ import { purple } from "../config/colors";
 const WhyOrganizationNeedUs = () => {
   return (
     <div className="flex md:flex-row flex-col py-4 px-3 gap-10 w-3/4 mx-auto">
-      <div className="relative md:w-2/6">
+      {/* <div className="relative md:w-2/6">
         <img
           src={"https://threatmits.com/assets/question.png"}
           alt="image"
@@ -16,7 +16,7 @@ const WhyOrganizationNeedUs = () => {
         >
           box
         </div>
-      </div>
+      </div> */}
 
       <div className="flex flex-col py-10 gap-5 md:w-3/5">
         <p className="font-light text-3xl">
