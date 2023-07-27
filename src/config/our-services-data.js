@@ -1,13 +1,13 @@
 export const OurServicesData = [
   {
     image: "https://threatmits.com/assets/pipeline.jpeg",
-    title: "Asset and Critical Control Protection",
+    title: "Asset and Critical Infrastructure Protection",
     details:
       "We guarantee protection to Client assets and facilities by deploying commensurate Security cover.",
     href: "",
   },
   {
-    image: "https://threatmits.com/assets/security-4.jpeg",
+    image: "https://threatmits.com/assets/security.jpeg",
     title: "Security Guards",
     details: "On request, we deploy well trained and fit-for-purpose guards ",
     href: "",
@@ -55,7 +55,7 @@ export const OurServicesData = [
     href: "",
   },
   {
-    image: "https://threatmits.com/assets/armed-forces2.jpeg",
+    image: "https://threatmits.com/assets/armed-security.jpeg",
     title: "Deployment of Armed Security Personnel",
     details: "On request, we deploy armed security personnel...",
     href: "",
@@ -64,7 +64,7 @@ export const OurServicesData = [
     image: "https://threatmits.com/assets/guard-dogs.jpeg",
     // position:
     //   "md:object-center object-right min-h-[200px] max-h-[200px] object-cover",
-    title: "fit-for-purpose guard Dogs",
+    title: "Fit-for-purpose guard Dogs",
     details:
       "Our security dogs are well trained to ensure effective detection...",
     href: "",
@@ -83,7 +83,7 @@ export const OurServicesData = [
   //   href: "",
   // },
   {
-    image: "https://threatmits.com/assets/sis.jpg",
+    image: "https://threatmits.com/assets/sis.jpeg",
 
     title: "Security Intelligence Services",
     details:
