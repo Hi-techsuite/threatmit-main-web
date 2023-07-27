@@ -42,7 +42,9 @@ const OurServicesModel = ({ image, title, description, href, position }) => {
       </div>
 
       <Modal1 visible={modal} onClose={() => setModal(false)}>
-        <GetInTouch2 />
+        <div className="">
+          <GetInTouch2 />
+        </div>
       </Modal1>
     </div>
   );

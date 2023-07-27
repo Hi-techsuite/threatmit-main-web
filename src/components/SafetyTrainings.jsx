@@ -17,8 +17,8 @@ const SafetyTrainings = () => {
         </p>
       </div>
 
-      <div className="flex justify-center md:flex-row flex-col gap-10">
-        <section className="min-h-[70vh] md:min-h-[100vh] relative  bg-cover flex  gap-3     mx-5 border-2  w-full   rounded-md">
+      <div className="flex justify-center md:flex-row flex-col gap-10 px-10">
+        <section className="min-h-[70vh] md:min-h-[100vh] relative  bg-cover flex  gap-3      border-2     rounded-md">
           <div className="py-3   px-3 text-black items-start flex rounded-md flex-col gap-4  ">
             <p className="font-bold pt-4">Standard Training Modules</p>
             {standard_training.map((course, index) => {
@@ -27,13 +27,8 @@ const SafetyTrainings = () => {
                   href="/training"
                   className="  flex items-center group gap-2 md:text-lg text-sm cursor-pointer transition-all duration-1000  ease-in-out"
                 >
-                  {/* <span class="relative flex h-3 w-3 hidden group-hover:flex  ">
-                    <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#f48005] opacity-75"></span>
-                    <span class="relative inline-flex rounded-full h-3 w-3 bg-[#340d70]"></span>
-                  </span> */}
-
                   <span
-                    className=" text-sm group-hover:scale-125 group-hover:translate-x-10 group-hover:text-transparent group-hover:bg-clip-text  group-hover:bg-gradient-to-tr from-[#340d70] to-[#f48005]"
+                    className="group-hover:text-[#340d70] group-hover:font-bold group-hover:text-2xl group-hover:text-transparent group-hover:bg-clip-text duration-300 ease-in-out  group-hover:bg-gradient-to-tr from-[#340d70] to-[#f48005]"
 
                     // className="group-hover:font-bold group-hover:text-[#340d70]"
                   >
@@ -45,9 +40,9 @@ const SafetyTrainings = () => {
           </div>
         </section>
 
-        <section className="min-h-[70vh] md:min-h-[100vh] relative  bg-cover flex flex-col gap-3     mx-5    border-2  w-full   ">
-          <div className="py-3  py-5 px-3 text-black items-start flex rounded-md flex-col gap-4 ">
-            <p>Safety Standard Training Modules</p>
+        <section className="min-h-[70vh] md:min-h-[100vh] relative  bg-cover flex flex-col gap-3  rounded-md   border-2  w-full   ">
+          <div className="  py-5 px-3 text-black items-start flex rounded-md flex-col gap-4 ">
+            <p className="font-bold">Safety Standard Training Modules</p>
             {training_courses.map((course, index) => {
               return (
                 <a
@@ -58,7 +53,7 @@ const SafetyTrainings = () => {
                     <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#f48005] opacity-75"></span>
                     <span class="relative inline-flex rounded-full h-3 w-3 bg-[#340d70]"></span>
                   </span>
-                  <span className="group-hover:font-bold group-hover:text-[#340d70]">
+                  <span className="group-hover:text-[#340d70] group-hover:font-bold group-hover:text-2xl group-hover:text-transparent group-hover:bg-clip-text duration-300 ease-in-out  group-hover:bg-gradient-to-tr from-[#340d70] to-[#f48005]">
                     {course.title}
                   </span>
                 </a>

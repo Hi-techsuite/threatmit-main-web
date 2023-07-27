@@ -71,7 +71,7 @@ const GetInTouch2 = () => {
   };
 
   return (
-    <div className="px-10 py-10 md:w-2/3 w-full md:mx-auto">
+    <div className="px-10 py-10 md:w-2/3 w-full ">
       <p className="font-extralight uppercase text-xs">contact us</p>
       <p className="flex flex-col font-light text-2xl">
         Have Questions? <span className="font-bold text-xl">Get in touch!</span>
