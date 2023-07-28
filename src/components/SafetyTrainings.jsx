@@ -27,11 +27,7 @@ const SafetyTrainings = () => {
                   href="/training"
                   className="  flex items-center group gap-2 md:text-lg text-sm cursor-pointer transition-all duration-1000  ease-in-out"
                 >
-                  <span
-                    className="group-hover:text-[#340d70] group-hover:font-bold group-hover:text-2xl group-hover:text-transparent group-hover:bg-clip-text duration-300 ease-in-out  group-hover:bg-gradient-to-tr from-[#340d70] to-[#f48005]"
-
-                    // className="group-hover:font-bold group-hover:text-[#340d70]"
-                  >
+                  <span className="group-hover:text-[#340d70] group-hover:font-bold group-hover:text-2xl group-hover:text-transparent group-hover:bg-clip-text duration-300 ease-in-out  group-hover:bg-gradient-to-tr from-[#340d70] to-[#f48005]">
                     {course.title}
                   </span>
                 </a>

@@ -139,7 +139,7 @@ const SlickCarousel = () => {
                 </p>
                 <p
                   // data-aos="fade-right"
-                  className="font-medium text-white  md:text-6xl flex flex-col  text-3xl  md:w-2/4 "
+                  className="font-medium text-white  md:text-6xl flex flex-col  text-xl  md:w-2/4 "
                 >
                   We provide world class maritime security services that exceed
                   best industry practices...

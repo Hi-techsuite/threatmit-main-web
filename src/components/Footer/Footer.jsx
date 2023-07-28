@@ -25,8 +25,8 @@ const Footer = () => {
           <p className="font-bold">For Enguires</p>
 
           <a href=" mailto:info@threatmits.com">info@threatmits.com</a>
-          <a href="tel:+2348079397373" className="font-semibold cursor-pointer">
-            +2348079397373
+          <a href="tel:+2348136042622" className="font-semibold cursor-pointer">
+            +2348136042622
           </a>
         </div>
       </div>
