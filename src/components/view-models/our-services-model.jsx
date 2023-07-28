@@ -12,7 +12,7 @@ const OurServicesModel = ({ image, title, description, href, position }) => {
   }
   return (
     <div
-      className={`flex   relative flex-col gap-4  my-5 md:px-0 px-7 h-[400px] w-full bg-black/50 group  bg-blend-saturation hover:bg-blend-normal bg-[url(${image})] scale-95 md:hover:scale-105 duration-300  hover:mx-0 hover:rounded-md hover:z-50 transition-all`}
+      className={`flex last-of-type:font-bold   relative flex-col gap-4  my-5 md:px-0 px-7 h-[400px] w-full bg-black/50 group  bg-blend-saturation hover:bg-blend-normal bg-[url(${image})] scale-95 md:hover:scale-105 duration-300  hover:mx-0 hover:rounded-md hover:z-50 transition-all`}
       style={{
         backgroundImage: `url(${image})`,
         backgroundRepeat: "no-repeat",

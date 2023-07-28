@@ -18,7 +18,7 @@ const SafetyTrainings = () => {
       </div>
 
       <div className="flex justify-center md:flex-row flex-col gap-10 px-10">
-        <section className="min-h-[70vh] md:min-h-[100vh] relative  bg-cover flex  gap-3      border-2     rounded-md">
+        <section className="min-h-[70vh] md:min-h-[100vh] relative  bg-cover flex  gap-3    w-full   border-2     rounded-md">
           <div className="py-3   px-3 text-black items-start flex rounded-md flex-col gap-4  ">
             <p className="font-bold pt-4">Standard Training Modules</p>
             {standard_training.map((course, index) => {
