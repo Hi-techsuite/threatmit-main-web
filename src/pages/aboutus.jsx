@@ -34,10 +34,10 @@ const AboutUs = () => {
 
       <WhyOrganizationNeedUs />
 
-      <OurVision />
-      <Newsletter />
+      {/* <OurVision /> */}
+      {/* <Newsletter /> */}
       {/* <Gallery /> */}
-      <Testimonies />
+      {/* <Testimonies /> */}
 
       <OurClients />
     </div>

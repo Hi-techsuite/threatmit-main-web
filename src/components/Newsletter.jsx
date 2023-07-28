@@ -2,7 +2,7 @@ import React from "react";
 import { PaperAirplaneIcon } from "@heroicons/react/24/outline";
 const Newsletter = () => {
   return (
-    <div className="flex md:flex-row flex-col  items-center justify-center py-10  w-2/4  my-5 mx-auto gap-10 ">
+    <div className="flex md:flex-row flex-col  items-center justify-center py-10  w-4/4 bg-yellow-500  gap-10 ">
       <div>
         <p> Be the first to get updates?</p>
         <p className="font-bold">Subscribe to our Newsletter</p>
@@ -13,13 +13,14 @@ const Newsletter = () => {
           type="text"
           name=""
           id=""
-          className="border-b-2 outline-none   "
+          className="border-b-2 outline-none   px-5 rounded-full py-3 "
           placeholder="Enter Your Email Address"
         />
-        <div className="flex">
+        <div className="flex gap-2 py-3">
           <input type="checkbox" name="" id="" />
           <p>
-            I agree to the <span>Privacy Policy</span>
+            I agree to the{" "}
+            <span className="font-semibold text-blue-400">Privacy Policy</span>
           </p>
         </div>
       </div>

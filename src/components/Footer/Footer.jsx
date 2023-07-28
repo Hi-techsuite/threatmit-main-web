@@ -5,21 +5,15 @@ import { Offices } from "../../config/offices";
 
 const Footer = () => {
   return (
-    <div className=" bg-gray-600 text-white px-5  gap-9 flex flex-col pt-10 bg-gradient-to-r from-gray-600  ">
+    <div className=" bg-gray-100  px-5  gap-9 flex flex-col pt-10  text-black ">
       <div className="flex md:flex-row gap-4  flex-col items-center justify-between px-10   pt-6 ">
         <div className="md:w-1/6 flex flex-col gap-3">
           <img src={logo} />
-          <p className="text-xl">
-            We Protect
-            <span className="font-bold">
-              {" Privacy"} <br></br> and Business
-            </span>
-          </p>
         </div>
 
         <div className="flex flex-col w-2/5 items-center gap-2">
           <p className="font-bold">Address</p>
-          <p className="font-light">{Offices[0].address}</p>
+          <p className="font-light text-center">{Offices[0].address}</p>
           <a
             href={"/contact-us"}
             className="bg-[#F48006] px-4 py-3 rounded-full text-xs"
@@ -37,8 +31,8 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="flex  justify-between py-3">
-        <div className="flex justify-between gap-5">
+      <div className="flex  justify-center py-3">
+        {/* <div className="flex justify-between gap-5">
           <Link className="font-bold text-white" to={"/"}>
             Home
           </Link>
@@ -48,7 +42,7 @@ const Footer = () => {
           <Link className="font-bold text-white" to={"/about-us"}>
             About
           </Link>
-        </div>
+        </div> */}
 
         <p className="text-gray-400">Copyright THREATMIT 2023</p>
       </div>
