@@ -9,16 +9,14 @@ const OurServices = () => {
 
   var settings = {
     dots: true,
-    // infinite: true,
+    infinite: true,
     autoplay: true,
     speed: 300,
     // slidesToShow: 4,
     slidesToShow: width <= 800 ? 1 : 5,
     slidesToScroll: 1,
-    arrows: false,
+    arrows: true,
     lazyLoad: "progressive",
-    dots: false,
-    asNavFor: false,
   };
 
   return (
@@ -33,7 +31,7 @@ const OurServices = () => {
         <p className="text-sm font-light">Our discrete bespoke solutions</p>
       </div>
 
-      <div className=" grid-cols-3 gap-3  md:grid-cols-4 md:grid  hidden   px-3">
+      <div className=" grid-cols-3 gap-3  md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 md:grid  hidden   px-3">
         {OurServicesData && OurServicesData.length > 1 ? (
           OurServicesData.map((service, index) => {
             return (
@@ -50,8 +48,25 @@ const OurServices = () => {
         )}
       </div>
 
-      <div className="md:hidden ">
-        <Slider {...settings}>
+      <div className="md:hidden  px-4 py-7">
+        <Slider {...settings} dots={true}>
+          {OurServicesData && OurServicesData.length > 1 ? (
+            OurServicesData.map((service, index) => {
+              return (
+                <OurServicesModel
+                  image={service.image}
+                  title={service.title}
+                  description={service.details}
+                />
+              );
+            })
+          ) : (
+            <p>...</p>
+          )}
+        </Slider>
+      </div>
+      {/* <div className="md:hidden  px-4 py-7">
+        <Slider {...settings} dots={true}>
           {OurServicesData && OurServicesData.length > 1 ? (
             OurServicesData.map((service, index) => {
               return (
@@ -66,7 +81,7 @@ const OurServices = () => {
             <p>hello</p>
           )}
         </Slider>
-      </div>
+      </div> */}
     </div>
   );
 };
