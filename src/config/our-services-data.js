@@ -40,7 +40,7 @@ export const OurServicesData = [
     href: "",
   },
   {
-    image: "https://threatmits.com/assets/mini-coach-3.webp",
+    image: "https://threatmits.com/assets/mini-coach-3.jpeg",
 
     title: "Mini Coach Hire Services",
     details:
@@ -91,7 +91,7 @@ export const OurServicesData = [
     href: "",
   },
   {
-    image: "https://threatmits.com/assets/drone.jpg",
+    image: "https://threatmits.com/assets/drone.jpeg",
     title: "Tracking & Surveillance Devices",
     details:
       "We provide our clients with State of the art surveillance equipment, Handheld Human and Vehicle scanners, Electronic security access control system etc.",

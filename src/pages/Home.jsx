@@ -30,7 +30,7 @@ const Home = () => {
           <button className="btn rounded-sm text-white bg-[#f48006] border-none text-xs">
             MAKE AN APPOINTMENT
           </button>
-          <button className="tn border-2 px-5 py-3"> CONTACT US ONLINE</button>
+          {/* <button className="tn border-2 px-5 py-3"> CONTACT US ONLINE</button> */}
         </div>
       </div>
       <WhatWeDo />

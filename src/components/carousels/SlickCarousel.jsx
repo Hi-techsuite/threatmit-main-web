@@ -21,10 +21,10 @@ const SlickCarousel = () => {
       <Swiper
         // spaceBetween={50}
 
-        // autoplay={{
-        //   delay: 2500,
-        //   disableOnInteraction: false,
-        // }}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
         slidesPerView={1}
         modules={[Navigation, Pagination, A11y, Scrollbar, EffectCube]}
         // navigation
