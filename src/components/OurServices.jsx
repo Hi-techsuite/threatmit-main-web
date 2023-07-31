@@ -13,7 +13,7 @@ const OurServices = () => {
     autoplay: true,
     speed: 300,
     // slidesToShow: 4,
-    slidesToShow: width <= 800 ? 1 : 5,
+    slidesToShow: 1,
     slidesToScroll: 1,
     arrows: true,
     lazyLoad: "progressive",
@@ -31,7 +31,9 @@ const OurServices = () => {
         <p className="text-sm font-light">Our discrete bespoke solutions</p>
       </div>
 
-      <div className=" grid-cols-3 gap-3  md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 md:grid md:px-5  lg:px-10 hidden     px-10">
+      <div
+        className={` grid-cols-3 gap-3  md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 md:grid md:px-5 lg:px-10 hidden  px-10   `}
+      >
         {OurServicesData && OurServicesData.length > 1 ? (
           OurServicesData.map((service, index) => {
             return (
@@ -44,7 +46,7 @@ const OurServices = () => {
             );
           })
         ) : (
-          <p>hello</p>
+          <p>...</p>
         )}
       </div>
 

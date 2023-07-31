@@ -27,9 +27,12 @@ const Home = () => {
           </span>
         </p>
         <div className="flex gap-4 md:justify-start justify-center w-full">
-          <button className="btn rounded-sm text-white bg-[#f48006] border-none text-xs">
+          <a
+            href="/contact-us"
+            className="btn rounded-sm text-white bg-[#f48006] border-none text-xs"
+          >
             MAKE AN APPOINTMENT
-          </button>
+          </a>
           {/* <button className="tn border-2 px-5 py-3"> CONTACT US ONLINE</button> */}
         </div>
       </div>
@@ -38,7 +41,7 @@ const Home = () => {
       <OurServices />
 
       <SafetyTrainings />
-      <InfoCounter />
+      {/* <InfoCounter /> */}
 
       <OurClients />
     </section>

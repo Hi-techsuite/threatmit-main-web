@@ -56,7 +56,7 @@ const SlickCarousel = () => {
                   </span>
                 </p>
 
-                <SliderButton href={"/online"} />
+                <SliderButton href={"#"} />
               </div>
             </section>
           </div>
@@ -76,7 +76,7 @@ const SlickCarousel = () => {
                   Intelligently coordinated coverage, nothing is out of sight
                 </p>
 
-                <SliderButton href={"/online"} />
+                <SliderButton href={"#"} />
               </div>
             </section>
           </div>
@@ -97,7 +97,7 @@ const SlickCarousel = () => {
                 >
                   Access Control System
                 </p>
-                <SliderButton href={"/online"} />
+                <SliderButton href={"#"} />
               </div>
             </section>
           </div>
@@ -139,12 +139,14 @@ const SlickCarousel = () => {
                 </p>
                 <p
                   // data-aos="fade-right"
-                  className="font-medium text-white  md:text-6xl flex flex-col  text-xl  md:w-2/4 "
+                  className="font-medium text-white  md:text-3xl flex flex-col  text-xl  md:w-2/4 "
                 >
                   We provide world class maritime security services that exceed
                   best industry practices...
                 </p>
-                <SliderButton href={"/ "} />
+                <div>
+                  <SliderButton href={"/ "} />
+                </div>
               </div>
             </section>
           </div>

@@ -10,8 +10,8 @@ const SafetyTrainings = () => {
   return (
     <div className=" ">
       <div className="w-3/4 mx-auto py-0 pb-5 pt-5">
-        <p className=" uppercase text-xs text-[#A7A7A7]"></p>
-        <p className="text-2xl">
+        {/* <p className=" uppercase text-xs text-[#A7A7A7]"></p> */}
+        <p className="text-2xl text-center py-3">
           Take Advantage of our
           <span className="font-bold"> Safety and Security Trainings</span>
         </p>
