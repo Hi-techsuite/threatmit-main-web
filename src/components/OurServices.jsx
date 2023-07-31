@@ -32,7 +32,7 @@ const OurServices = () => {
       </div>
 
       <div>
-        <div className="hidden xl:grid grid-cols-4">
+        <div className="hidden lg:grid xl:grid lg:grid-cols-3 xl:grid-cols-4 gap-10 px-5">
           {OurServicesData &&
             OurServicesData.length > 1 &&
             OurServicesData.slice(0, 12).map((service, index) => {
@@ -64,7 +64,7 @@ const OurServices = () => {
       </div>
 
       <div
-        className={` grid-cols-3 gap-3  md:grid-cols-2 lg:grid-cols-3 xl:hidden md:grid md:px-5 lg:px-10 hidden  px-10  `}
+        className={` grid-cols-3 gap-3  md:grid-cols-2 lg:hidden xl:hidden md:grid md:px-5 lg:px-10 hidden  px-10  `}
       >
         {OurServicesData && OurServicesData.length > 1 ? (
           OurServicesData.map((service, index) => {
