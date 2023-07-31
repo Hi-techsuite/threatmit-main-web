@@ -2,7 +2,7 @@ import React from "react";
 
 const OurClientsModel = ({ image }) => {
   return (
-    <div className="w-2/4">
+    <div className="w-[100px]">
       <img src={image || ""} alt="" />
     </div>
   );

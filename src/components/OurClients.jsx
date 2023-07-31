@@ -3,6 +3,7 @@ import Slider from "react-slick";
 import { slider_settings } from "../config/slick-carousel.config";
 import OurClientsModel from "./view-models/OurClientsModel";
 import { nexim_img, shell_img, tulip_img } from "../config/imageFactory";
+import { clients } from "../config/clients";
 
 //**
 
@@ -13,17 +14,25 @@ import { nexim_img, shell_img, tulip_img } from "../config/imageFactory";
 
 const OurClients = () => {
   return (
-    <div className="px-5 py-5 ">
-      <Slider {...slider_settings} autoplay autoplaySpeed={3000}>
-        <OurClientsModel image={nexim_img} />
-        <OurClientsModel image={shell_img} />
-        <OurClientsModel image={tulip_img} />
-        <OurClientsModel image={nexim_img} />
-        <OurClientsModel image={nexim_img} />
-        <OurClientsModel image={shell_img} />
-        <OurClientsModel image={tulip_img} />
-        <OurClientsModel image={nexim_img} />
-      </Slider>
+    <div className="pointer-events-none relative mt-10 flex gap-10 overflow-hidden">
+      {/* <Slider
+        {...slider_settings}
+        autoplay
+        autoplaySpeed={3000}
+        className="flex  justify-center items-center"
+      >
+        {clients.map((client, index) => {
+          return <OurClientsModel image={client.logo} />;
+        })}
+
+     
+      </Slider> */}
+
+      <div className="animate-marquee flex  shrink-0 items-center justify-around gap-20 [animation-direction:reverse]">
+        {clients.map((client, index) => {
+          return <OurClientsModel image={client.logo} />;
+        })}
+      </div>
     </div>
   );
 };
