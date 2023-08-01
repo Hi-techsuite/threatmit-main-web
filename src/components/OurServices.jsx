@@ -1,4 +1,5 @@
 import React from "react";
+
 import OurServicesModel from "./view-models/our-services-model";
 import { OurServicesData } from "../config/our-services-data";
 import useCurrentWidth from "../hooks/useCurrentWidth";
@@ -32,7 +33,7 @@ const OurServices = () => {
       </div>
 
       <div>
-        <div className="hidden lg:grid xl:grid lg:grid-cols-3 xl:grid-cols-4 gap-10 px-5">
+        <div className="hidden  lg:grid xl:grid lg:grid-cols-3 xl:grid-cols-4 gap-10 px-5">
           {OurServicesData &&
             OurServicesData.length > 1 &&
             OurServicesData.slice(0, 12).map((service, index) => {
@@ -47,7 +48,7 @@ const OurServices = () => {
             })}
         </div>
 
-        <div className="flex justify-center gap-5 px-10">
+        <div className="md:flex justify-center gap-5 hidden px-10">
           {OurServicesData &&
             OurServicesData.length > 1 &&
             OurServicesData.slice(12, 14).map((service, index) => {
