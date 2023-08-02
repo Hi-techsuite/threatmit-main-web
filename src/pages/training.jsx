@@ -66,7 +66,7 @@ const Training = () => {
   };
 
   return (
-    <div className="flex flex-col gap-5 px-5 py-10  bg-gray-100 bg-no-repeat bg-blend-overlay bg-cover  bg-[url('./src/assets/images/pattern3.jpeg')] min-h-screen  ">
+    <div className="flex flex-col gap-5 px-5 py-10  bg-gray-100 bg-no-repeat bg-blend-overlay bg-cover  bg-[url('https://threatmits.com/assets/pattern2.jpeg')] min-h-screen  ">
       <p className="text-center font-bold text-2xl">
         Enroll in our Training courses
       </p>

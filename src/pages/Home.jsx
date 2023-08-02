@@ -9,7 +9,7 @@ import { HomeCarousel } from "../components/Carousel";
 import waves from "../assets/images/svgs/waves.svg";
 
 const Home = () => (
-  <section className="min-h-[100vh] w-full overflow-hidden flex flex-col bg-gray-100 bg-no-repeat bg-blend-overlay bg-cover  bg-[url('./src/assets/images/pattern3.jpeg')]      ">
+  <section className="min-h-[100vh] w-full overflow-hidden flex flex-col bg-gray-100 bg-no-repeat bg-blend-overlay bg-cover  bg-[url(https://threatmits.com/assets/pattern2.jpeg)]      ">
     <HomeCarousel />
 
     <div
