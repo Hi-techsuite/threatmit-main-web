@@ -7,9 +7,15 @@ import InfoCounter from "../components/InfoCounter";
 import OurClients from "../components/OurClients";
 import { HomeCarousel } from "../components/Carousel";
 import waves from "../assets/images/svgs/waves.svg";
+import pattern from "../assets/images/pattern3.jpeg";
 
 const Home = () => (
-  <section className="min-h-[100vh] w-full overflow-hidden flex flex-col bg-gray-100 bg-no-repeat bg-blend-overlay bg-cover  bg-[url(https://threatmits.com/assets/pattern2.jpeg)]      ">
+  <section
+    className="min-h-[100vh] w-full overflow-hidden flex flex-col bg-gray-100 bg-no-repeat bg-blend-overlay bg-cover        "
+    style={{
+      backgroundImage: `url(${pattern})`,
+    }}
+  >
     <HomeCarousel />
 
     <div

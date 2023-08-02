@@ -7,6 +7,8 @@ import { COMPOSE_EMAIL } from "../services/mailServices";
 import { DEFUALT_EMAIL_SENDER } from "../core/constants";
 import { useNavigate } from "react-router-dom";
 
+import pattern from "../assets/images/pattern3.jpeg";
+
 const Training = () => {
   const navigate = useNavigate();
 
@@ -66,7 +68,12 @@ const Training = () => {
   };
 
   return (
-    <div className="flex flex-col gap-5 px-5 py-10  bg-gray-100 bg-no-repeat bg-blend-overlay bg-cover  bg-[url('https://threatmits.com/assets/pattern2.jpeg')] min-h-screen  ">
+    <div
+      className="flex flex-col gap-5 px-5 py-10  bg-gray-100 bg-no-repeat bg-blend-overlay bg-cover  min-h-screen  "
+      style={{
+        backgroundImage: `url(${pattern})`,
+      }}
+    >
       <p className="text-center font-bold text-2xl">
         Enroll in our Training courses
       </p>

@@ -31,7 +31,7 @@ const WhyOrganizationNeedUs = () => {
         </p>
       </div>
 
-      <p className=" leading-10 md:text-2xl text-xl   py-10 px-5 text-justify  w-full  bg-gray-100/20 text-black bg-no-repeat bg-blend-color-dodge bg-cover  bg-[url('https://threatmits.com/assets/pattern2.jpeg')] ">
+      <p className=" leading-10 md:text-2xl text-xl   py-10 px-5 text-justify  w-full  bg-gray-100/20 text-black bg-no-repeat bg-blend-color-dodge bg-cover  ">
         <span className="font-bold cursor-pointer "> THREATMIT </span>
         as a team has a wealth of Intelligence and Operations experience as we
         have successfully handled over 150 Crisis and Incident Management cases
