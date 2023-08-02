@@ -5,7 +5,7 @@ import OurServicesModel from "../components/view-models/our-services-model";
 
 const Services = () => {
   return (
-    <div className="min-h-[100vh]">
+    <div className="min-h-[100vh]   bg-gray-100 bg-no-repeat bg-blend-overlay bg-cover  bg-[url('./src/assets/images/pattern3.jpeg')]  ">
       <OurServices />
     </div>
   );
