@@ -1,23 +1,23 @@
 import { Carousel } from "@material-tailwind/react";
 import { AnimatePresence } from "framer-motion";
-import { motion } from "framer-motion";
+import { motion, useAnimation } from "framer-motion";
 import SliderButton from "./Buttons/SliderButton";
 export function HomeCarousel() {
   const cardVariants = {
     offscreen: {
-      // y: 300,
-      // opacity: 0,
-      scale: 0.3,
+      scale: 0.6,
+      transition: {
+        type: "spring",
+        duration: 0.8,
+      },
     },
     onscreen: {
-      // y: 50,
       scale: 1,
-
       // rotate: -10,
       transition: {
         type: "spring",
         bounce: 0.4,
-        duration: 0.8,
+        duration: 2,
       },
     },
   };

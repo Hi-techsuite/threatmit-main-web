@@ -28,7 +28,7 @@ const WhatWeDo = () => {
           </p>
           <a
             href="/about-us"
-            className="btn rounded-sm px-4 py-2 font-light uppercase md:w-1/4 text-white  bg-[#f48006]  "
+            className="btn rounded-sm px-4 py-2 font-light hover:bg-[#38106e]  text-center uppercase md:w-1/4 text-white  bg-[#f48006]  "
           >
             About Our Company
           </a>

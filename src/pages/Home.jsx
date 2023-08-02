@@ -6,6 +6,7 @@ import SafetyTrainings from "../components/SafetyTrainings";
 import InfoCounter from "../components/InfoCounter";
 import OurClients from "../components/OurClients";
 import { HomeCarousel } from "../components/Carousel";
+import waves from "../assets/images/svgs/waves.svg";
 
 const Home = () => {
   return (
@@ -15,9 +16,10 @@ const Home = () => {
 
       <div
         data-aod="slide-up"
-        className="flex md:flex-row flex-col  gap-5  bg-[#330e70]  justify-between  text-white md:items-center py-20  px-5 "
+        className="flex md:flex-row flex-col  gap-5  bg-[#330e70]  justify-between  text-white md:items-center py-20   relative px-5 "
         style={{
           background: " rgb(51, 13, 112)",
+
           background:
             "linear-gradient(17deg, rgba(51,13,112,1) 0%, rgba(244,128,5,1) 100%)",
         }}
@@ -31,7 +33,7 @@ const Home = () => {
         <div className="flex gap-4 md:justify-start justify-center w-full">
           <a
             href="/contact-us"
-            className="btn rounded-sm text-white bg-[#f48006] border-none text-xs"
+            className="btn px-4 py-2 rounded-sm text-white bg-[#f48006] border-none text-xs"
           >
             MAKE AN APPOINTMENT
           </a>

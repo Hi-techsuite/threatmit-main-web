@@ -17,8 +17,8 @@ const SafetyTrainings = () => {
         </p>
       </div>
 
-      <div className="flex justify-center md:flex-row flex-col gap-10 px-10">
-        <section className="min-h-[70vh] md:min-h-[100vh] relative  bg-cover flex  gap-3    w-full   border-2     rounded-md">
+      <div className="flex justify-center md:flex-row flex-col gap-10 px-10 ">
+        <section className="min-h-[70vh] md:min-h-[100vh] relative  bg-cover flex  gap-3    w-full   border-2     rounded-md    bg-gradient-to-r from-gray-50 via-gray-100 to-gray-200">
           <div className="py-3   px-3 text-black items-start flex rounded-md flex-col gap-4  ">
             <p className="font-bold pt-4">Standard Training Modules</p>
             {standard_training.map((course, index) => {
@@ -36,7 +36,7 @@ const SafetyTrainings = () => {
           </div>
         </section>
 
-        <section className="min-h-[70vh] md:min-h-[100vh] relative  bg-cover flex flex-col gap-3  rounded-md   border-2  w-full   ">
+        <section className="min-h-[70vh] md:min-h-[100vh] relative  bg-cover flex flex-col gap-3  rounded-md   border-2  w-full  bg-gradient-to-r from-gray-50 via-gray-100 to-gray-200  ">
           <div className="  py-5 px-3 text-black items-start flex rounded-md flex-col gap-4 ">
             <p className="font-bold">Safety Standard Training Modules</p>
             {training_courses.map((course, index) => {
