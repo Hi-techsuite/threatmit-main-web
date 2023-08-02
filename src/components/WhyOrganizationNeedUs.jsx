@@ -26,12 +26,12 @@ const WhyOrganizationNeedUs = () => {
         <p className="z-500">
           Why do <span className="font-bold">organisations trust </span> us{" "}
           <br className="hidden md:flex" />
-          with their most 
-          <span className="font-bold">critical issues</span>
+          {"  with their most "}
+          <span className="font-bold"> critical issues</span>
         </p>
       </div>
 
-      <p className=" leading-loose md:text-2xl text-xl px-5 text-justify  w-full ">
+      <p className=" leading-10 md:text-2xl text-xl   py-10 px-5 text-justify  w-full  bg-gray-100/20 text-black bg-no-repeat bg-blend-color-dodge bg-cover  bg-[url('./src/assets/images/pattern2.jpeg')] ">
         <span className="font-bold cursor-pointer "> THREATMIT </span>
         as a team has a wealth of Intelligence and Operations experience as we
         have successfully handled over 150 Crisis and Incident Management cases

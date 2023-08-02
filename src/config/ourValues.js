@@ -6,7 +6,8 @@ export const ourValues = [
   },
   {
     title: "Expertise",
-    details: "Expertise",
+    details:
+      "we develop and demonstrate our expertise through our innovative and leading edge approach to creating and delivering the right solution",
   },
   {
     title: "Integrity",
