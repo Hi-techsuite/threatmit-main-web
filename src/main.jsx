@@ -10,6 +10,7 @@ import { register } from "swiper/element/bundle";
 // register Swiper custom elements
 import Aos from "aos";
 import "aos/dist/aos.css";
+
 // import "swiper/swiper.min.css";
 // import "swiper/swiper-bundle.css";
 // import "swiper/swiper-bundle.min.css";

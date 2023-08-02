@@ -5,11 +5,13 @@ import OurServices from "../components/OurServices";
 import SafetyTrainings from "../components/SafetyTrainings";
 import InfoCounter from "../components/InfoCounter";
 import OurClients from "../components/OurClients";
+import { HomeCarousel } from "../components/Carousel";
 
 const Home = () => {
   return (
     <section className="min-h-[100vh] w-full overflow-hidden flex flex-col ">
-      <Hero />
+      {/* <Hero /> */}
+      <HomeCarousel />
 
       <div
         data-aod="slide-up"

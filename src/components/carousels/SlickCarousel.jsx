@@ -1,4 +1,5 @@
 import { Swiper, SwiperSlide } from "swiper/react";
+import { AnimatePresence, motion } from "framer-motion";
 import { Link } from "react-router-dom";
 
 // Import Swiper styles
@@ -15,14 +16,40 @@ import {
   EffectFade,
 } from "swiper/modules";
 import SliderButton from "../Buttons/SliderButton";
+import { useState } from "react";
 const SlickCarousel = () => {
+  const [direction, setDirection] = useState(null);
+  const slideVariants = {
+    hiddenRight: {
+      x: "100%",
+      opacity: 0,
+    },
+    hiddenLeft: {
+      x: "-100%",
+      opacity: 0,
+    },
+    visible: {
+      x: "0",
+      opacity: 1,
+      transition: {
+        duration: 1,
+      },
+    },
+    exit: {
+      opacity: 0,
+      scale: 0.8,
+      transition: {
+        duration: 1,
+      },
+    },
+  };
   return (
     <div>
       <Swiper
         // spaceBetween={50}
 
         autoplay={{
-          delay: 2500,
+          delay: 4000,
           disableOnInteraction: false,
         }}
         slidesPerView={1}
@@ -34,35 +61,54 @@ const SlickCarousel = () => {
         onSlideChange={() => console.log("slide change")}
       >
         <SwiperSlide>
-          <div className=" bg-[url('https://threatmits.com/assets/pipeline.jpeg')]   bg-cover  ">
-            <section
-              // data-aos="zoom-in"
-              className="min-h-[70vh] md:min-h-[100vh] relative flex flex-col gap-3 items-center justify-center  w-full h-full  content-[''] top-0 left-0  bg-gradient-to-r from-[#330d70]/30  to-[#f48005]/10   "
+          <AnimatePresence>
+            <motion.div
+              variants={slideVariants}
+              initial={"handleRight"}
+              animate={"visible"}
+              exit={"exit"}
+              className=" bg-[url('https://threatmits.com/assets/pipeline.jpeg')]   bg-cover  "
             >
-              <div className=" flex  gap-3  flex-col md:bottom-50  md:left-10 items-start  absolute">
-                <p className=" text-gray-200 font-light text-2xl md:text-5xl flex flex-col  ">
-                  we deliver on
-                </p>
-                <p
-                  // data-aos="fade-right"
-                  className="font-light text-white  md:text-5xl flex flex-col  text-2xl md:text-start text-start"
-                >
-                  <span className="font-bold">
-                    Assets <span className="font-light">and</span>{" "}
-                  </span>
-                  <span className="font-black">
-                    {" "}
-                    Critical infrastructure protection
-                  </span>
-                </p>
+              <section
+                // data-aos="zoom-in"
+                className="min-h-[70vh] md:min-h-[100vh] relative flex flex-col gap-3 items-center justify-center  w-full h-full  content-[''] top-0 left-0  bg-gradient-to-r from-[#330d70]/30  to-[#f48005]/10   "
+              >
+                <div className=" flex  gap-3  flex-col md:bottom-50  md:left-10 items-start  absolute">
+                  <p className=" text-gray-200 font-light text-2xl md:text-5xl flex flex-col  ">
+                    we deliver on
+                  </p>
+                  <p
+                    // data-aos="fade-right"
+                    className="font-light text-white  md:text-5xl flex flex-col  text-2xl md:text-start text-start"
+                  >
+                    <span className="font-bold">
+                      Assets <span className="font-light">and</span>{" "}
+                    </span>
+                    <span className="font-black">
+                      {" "}
+                      Critical infrastructure protection
+                    </span>
+                  </p>
 
-                <SliderButton href={"#"} />
-              </div>
-            </section>
-          </div>
+                  <SliderButton href={"#"} />
+                </div>
+              </section>
+            </motion.div>
+          </AnimatePresence>
         </SwiperSlide>
         <SwiperSlide>
-          <div className=" bg-[url('https://threatmits.com/assets/cctiv.jpeg')]   bg-cover  ">
+          <motion.div
+            initial={{
+              x: 100,
+            }}
+            animate={{
+              x: 0,
+            }}
+            transition={{
+              duration: 0.5,
+            }}
+            className=" bg-[url('https://threatmits.com/assets/cctiv.jpeg')]   bg-cover  "
+          >
             <section
               // data-aos="zoom-in"
               className="min-h-[70vh] md:min-h-[100vh] relative flex flex-col gap-3 items-center justify-center  w-full h-full  content-[''] top-0 left-0  bg-gradient-to-r from-[#330d70]/30  to-[#f48005]/10   "
@@ -79,7 +125,7 @@ const SlickCarousel = () => {
                 <SliderButton href={"#"} />
               </div>
             </section>
-          </div>
+          </motion.div>
         </SwiperSlide>
         <SwiperSlide>
           <div className=" bg-[url('https://threatmits.com/assets/access-control.jpeg')]   bg-cover   bg-center">
