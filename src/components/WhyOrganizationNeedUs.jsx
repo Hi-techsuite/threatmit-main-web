@@ -34,14 +34,14 @@ const WhyOrganizationNeedUs = () => {
       <p className=" leading-10 md:text-2xl text-xl   py-10 px-5 text-justify  w-full  bg-gray-100/20 text-black bg-no-repeat bg-blend-color-dodge bg-cover  ">
         <span className="font-bold cursor-pointer "> THREATMIT </span>
         as a team has a wealth of Intelligence and Operations experience as we
-        have successfully handled over 150 Crisis and Incident Management cases
-        and cracked over 300 threat cases.  Our staff have passed through
-        Security Management, Counter terrorism and  Security Intelligence
-        trainings in Israel, Holland, South Africa and the UK.  Some of our
-        Staff are members of NIMC,NEBOSH, ASIS, WSO  and Fellows of NIIS.  we
-        develop and demonstrate our expertise through our innovative and
-        leading-edge approach to creating and delivering the right solution to
-        Security and Safety issues.
+        have Successfully handled over 150 Security incidents and cracked over
+        300 threat cases.  Our staff have passed through Security Management,
+        Counter terrorism and  Security Intelligence trainings in Israel,
+        Holland, South Africa and the UK.  Some of our Staff are members of
+        NIMC,NEBOSH, ASIS, WSO  and Fellows of NIIS. We develop and demonstrate
+        our expertise through our innovative and leading-edge approach to
+        creating and delivering the right solution to Security and Safety
+        issues.
       </p>
       {/* </div> */}
     </div>
