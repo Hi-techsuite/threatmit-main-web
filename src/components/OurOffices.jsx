@@ -21,7 +21,7 @@ const OurOffices = () => {
       <Carousel
         autoPlay
         infiniteLoop
-        interval={5000}
+        interval={4000}
         showArrows={true}
         showStatus={false}
         useKeyboardArrows={true}

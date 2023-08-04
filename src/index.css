@@ -7,3 +7,8 @@
 body {
     font-family: 'Red Hat Display', sans-serif;
   }
+
+  option:checked,
+  option:hover {
+    background-color: #340d70;
+  }
