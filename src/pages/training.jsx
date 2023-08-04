@@ -122,11 +122,18 @@ const Training = () => {
               <select
                 id="course"
                 onChange={handleOnChnage}
-                className="py-4 px-3 rounded-md outline-none bg-gray-200 w-full"
+                className="py-4 px-3 rounded-md outline-none     bg-gray-200 w-full"
               >
                 {courses_list && courses_list.length >= 1
                   ? courses_list.map((data, index) => {
-                      return <option value={data.title}>{data.title}</option>;
+                      return (
+                        <option
+                          className="text-[#340d70]  hover:bg-green-600"
+                          value={data.title}
+                        >
+                          {data.title}
+                        </option>
+                      );
                     })
                   : null}
               </select>
