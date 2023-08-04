@@ -75,7 +75,7 @@ export function HomeCarousel() {
         whileInView={"onscreen"}
         initial="offscreen"
         viewport={{ amount: 0.1 }}
-        className=" bg-[url('https://threatmits.com/assets/pipeline.jpeg')]   bg-cover  "
+        className=" bg-[url('https://threatmits.com/asset/pipeline.jpeg')]   bg-cover  "
       >
         <section
           // data-aos="zoom-in"
@@ -113,7 +113,7 @@ export function HomeCarousel() {
         whileInView={"onscreen"}
         initial="offscreen"
         viewport={{ amount: 0.1 }}
-        className=" bg-[url('https://threatmits.com/assets/cctiv.jpeg')]   bg-cover  "
+        className=" bg-[url('https://threatmits.com/asset/cctiv.jpeg')]   bg-cover  "
       >
         <section
           // data-aos="zoom-in"
@@ -138,7 +138,7 @@ export function HomeCarousel() {
         whileInView={"onscreen"}
         initial="offscreen"
         viewport={{ amount: 0.1 }}
-        className=" bg-[url('https://threatmits.com/assets/access-control.jpeg')]   bg-cover   bg-center"
+        className=" bg-[url('https://threatmits.com/asset/access-control.jpeg')]   bg-cover   bg-center"
       >
         <section
           // data-aos="zoom-in"
@@ -164,7 +164,7 @@ export function HomeCarousel() {
         whileInView={"onscreen"}
         initial="offscreen"
         viewport={{ amount: 0.1 }}
-        className=" bg-[url('https://threatmits.com/assets/car-repair.jpeg')]   bg-cover   bg-center"
+        className=" bg-[url('https://threatmits.com/asset/car-repair.jpeg')]   bg-cover   bg-center"
       >
         <section
           // data-aos="zoom-in"
@@ -194,7 +194,7 @@ export function HomeCarousel() {
         whileInView={"onscreen"}
         initial="offscreen"
         viewport={{ amount: 0.1 }}
-        className=" bg-[url('https://threatmits.com/assets/maritime.jpeg')]   bg-cover   bg-center"
+        className=" bg-[url('https://threatmits.com/asset/maritime.jpeg')]   bg-cover   bg-center"
       >
         <section
           // data-aos="zoom-in"

@@ -1,0 +1,33 @@
+on:
+    push:
+        branches:
+            -   prod
+name: 🚀 Deploy Product on Push
+jobs:
+  web-deploy:
+    name: 🎉 Deploy
+    runs-on: ubuntu-latest
+    steps:
+    - name: 🚚 Get latest code
+      uses: actions/checkout@v3
+
+    - name: Use Node.js 18
+      uses: actions/setup-node@v2
+      with:
+        node-version: '18'
+      
+    - name: 🔨 Installing Node Modules Projects
+      run:  npm i
+    
+    - name: Building project
+      run:  npm run build
+      env:
+        CI: false
+    - name: 📂 Sync files
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+      with:
+        server: ${{secrets.server}}
+        username: ${{secrets.username}}
+        password: ${{secrets.password }}
+        local-dir: ./dist/
+        server-dir: /public_html/

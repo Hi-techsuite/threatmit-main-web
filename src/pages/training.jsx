@@ -122,15 +122,19 @@ const Training = () => {
               <select
                 id="course"
                 onChange={handleOnChnage}
-                className="py-4 px-3 rounded-md outline-none     bg-gray-200 w-full"
+                name="courses"
+                onFocus={() => {
+                  this.size = 6;
+                }}
+                onBlur={() => {
+                  this.size = 0;
+                }}
+                className="py-4 px-3 rounded-md outline-none    bg-gray-200 w-full"
               >
                 {courses_list && courses_list.length >= 1
                   ? courses_list.map((data, index) => {
                       return (
-                        <option
-                          className="text-[#340d70]  hover:bg-green-600"
-                          value={data.title}
-                        >
+                        <option className="text-[#340d70]  " value={data.title}>
                           {data.title}
                         </option>
                       );

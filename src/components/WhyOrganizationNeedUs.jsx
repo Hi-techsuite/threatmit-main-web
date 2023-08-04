@@ -7,7 +7,7 @@ const WhyOrganizationNeedUs = () => {
     <div className="flex  overflow-hidden md:flex-row flex-col py-4 px-3 gap-10 mx-auto min-h-[300px]  justify-around">
       {/* <div className="relative md:w-2/6">
         <img
-          src={"https://threatmits.com/assets/question.png"}
+          src={"https://threatmits.com/asset/question.png"}
           alt="image"
           className=""
         />

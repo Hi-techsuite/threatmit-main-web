@@ -67,7 +67,7 @@ const SlickCarousel = () => {
               initial={"handleRight"}
               animate={"visible"}
               exit={"exit"}
-              className=" bg-[url('https://threatmits.com/assets/pipeline.jpeg')]   bg-cover  "
+              className=" bg-[url('https://threatmits.com/asset/pipeline.jpeg')]   bg-cover  "
             >
               <section
                 // data-aos="zoom-in"
@@ -107,7 +107,7 @@ const SlickCarousel = () => {
             transition={{
               duration: 0.5,
             }}
-            className=" bg-[url('https://threatmits.com/assets/cctiv.jpeg')]   bg-cover  "
+            className=" bg-[url('https://threatmits.com/asset/cctiv.jpeg')]   bg-cover  "
           >
             <section
               // data-aos="zoom-in"
@@ -128,7 +128,7 @@ const SlickCarousel = () => {
           </motion.div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className=" bg-[url('https://threatmits.com/assets/access-control.jpeg')]   bg-cover   bg-center">
+          <div className=" bg-[url('https://threatmits.com/asset/access-control.jpeg')]   bg-cover   bg-center">
             <section
               // data-aos="zoom-in"
               className="min-h-[70vh] md:min-h-[100vh] relative flex flex-col gap-3 items-start justify-center  w-full h-full  content-[''] top-0 left-0  bg-gradient-to-r from-[#330d70]/30  to-[#f48005]/10   "
@@ -149,7 +149,7 @@ const SlickCarousel = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className=" bg-[url('https://threatmits.com/assets/car-repair.jpeg')]   bg-cover   bg-center">
+          <div className=" bg-[url('https://threatmits.com/asset/car-repair.jpeg')]   bg-cover   bg-center">
             <section
               // data-aos="zoom-in"
               className="min-h-[70vh] md:min-h-[100vh] relative flex flex-col gap-3 items-center justify-center  w-full h-full  content-[''] top-0 left-0  bg-gradient-to-r from-[#330d70]/30  to-[#f48005]/10   "
@@ -174,7 +174,7 @@ const SlickCarousel = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className=" bg-[url('https://threatmits.com/assets/maritime.jpeg')]   bg-cover   bg-center">
+          <div className=" bg-[url('https://threatmits.com/asset/maritime.jpeg')]   bg-cover   bg-center">
             <section
               // data-aos="zoom-in"
               className="min-h-[70vh] md:min-h-[100vh] relative flex flex-col gap-3 items-center justify-center  w-full h-full  content-[''] top-0 left-0  bg-gradient-to-r from-[#330d70]/30  to-[#f48005]/10   "

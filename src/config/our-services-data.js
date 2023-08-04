@@ -1,46 +1,46 @@
 export const OurServicesData = [
   {
-    image: "https://threatmits.com/assets/pipeline.jpeg",
+    image: "https://threatmits.com/asset/pipeline.jpeg",
     title: "Asset and Critical Infrastructure Protection",
     details:
       "We guarantee protection to Client assets and facilities by deploying commensurate Security cover.",
     href: "",
   },
   {
-    image: "https://threatmits.com/assets/security.jpeg",
+    image: "https://threatmits.com/asset/security.jpeg",
     title: "Security Guards",
     details: "On request, we deploy well trained and fit-for-purpose guards ",
     href: "",
   },
   {
-    image: "https://threatmits.com/assets/security-professional.jpeg",
+    image: "https://threatmits.com/asset/security-professional.jpeg",
     title: "Security Professionals",
     details:
       "We Deploy experienced and well trained Staff to serve as security/logistics mangers/supervisors in  organization.",
     href: "",
   },
   {
-    image: "https://threatmits.com/assets/car-repair.jpeg",
+    image: "https://threatmits.com/asset/car-repair.jpeg",
     title: "Auto Mobile Repairs / Maintenance",
     details:
       "With our professionally trained Auto Mobile experts, we provide our clients with the best vehicle service maintenance and repairs.",
     href: "",
   },
   {
-    image: "https://threatmits.com/assets/access-control.jpeg",
+    image: "https://threatmits.com/asset/access-control.jpeg",
     title: "Access Control",
     details: "You can trust us with your access control system",
     href: "",
   },
   {
-    image: "https://threatmits.com/assets/suv.jpeg",
+    image: "https://threatmits.com/asset/suv.jpeg",
 
     title: "Executive Car Hire",
     details: "We deploy luxury cars fit for every occasion...",
     href: "",
   },
   {
-    image: "https://threatmits.com/assets/mini-coach-3.jpeg",
+    image: "https://threatmits.com/asset/mini-coach-3.jpeg",
 
     title: "Mini Coach Hire Services",
     details:
@@ -48,20 +48,20 @@ export const OurServicesData = [
     href: "",
   },
   {
-    image: "https://threatmits.com/assets/convoy.jpeg",
+    image: "https://threatmits.com/asset/convoy.jpeg",
     title: "Operational Trucks ",
     details:
       "We have fleet of operational vehicles for security movements and operations",
     href: "",
   },
   {
-    image: "https://threatmits.com/assets/armed-security.jpeg",
+    image: "https://threatmits.com/asset/armed-security.jpeg",
     title: "Deployment of Armed Security Personnel",
     details: "On request, we deploy armed security personnel...",
     href: "",
   },
   {
-    image: "https://threatmits.com/assets/guard-dogs.jpeg",
+    image: "https://threatmits.com/asset/guard-dogs.jpeg",
     // position:
     //   "md:object-center object-right min-h-[200px] max-h-[200px] object-cover",
     title: "Fit-for-purpose guard Dogs",
@@ -70,7 +70,7 @@ export const OurServicesData = [
     href: "",
   },
   {
-    image: "https://threatmits.com/assets/maritime.jpeg",
+    image: "https://threatmits.com/asset/maritime.jpeg",
 
     title: "Maritme/Offshore Security",
     details: "We also ensure your protection even on waterways...",
@@ -83,7 +83,7 @@ export const OurServicesData = [
   //   href: "",
   // },
   {
-    image: "https://threatmits.com/assets/sis.jpeg",
+    image: "https://threatmits.com/asset/sis.jpeg",
 
     title: "Security Intelligence Services",
     details:
@@ -91,14 +91,14 @@ export const OurServicesData = [
     href: "",
   },
   {
-    image: "https://threatmits.com/assets/drone.jpeg",
+    image: "https://threatmits.com/asset/drone.jpeg",
     title: "Tracking & Surveillance Devices",
     details:
       "We provide our clients with State of the art surveillance equipment, Handheld Human and Vehicle scanners, Electronic security access control system etc.",
     href: "",
   },
   {
-    image: "https://threatmits.com/assets/cyber-sec.jpeg",
+    image: "https://threatmits.com/asset/cyber-sec.jpeg",
 
     title: "Cyber Security",
     details:
