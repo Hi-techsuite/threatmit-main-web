@@ -11,9 +11,9 @@ import pattern from "../assets/images/pattern3.jpeg";
 
 const AboutUs = () => {
   return (
-    <div className="">
+    <div className="flex flex-col gap-10">
       <div
-        className="flex flex-col gap-5 justify-center items-center bg-center  min-h-[50vh]   bg-gray-100/20 text-black bg-no-repeat bg-blend-overlay bg-cover  bg-[url('https://threatmits.com/assets/pattern2.jpeg')]  "
+        className="flex flex-col gap-5 justify-center items-center bg-center  min-h-[50vh]   bg-gray-100/80 text-black bg-no-repeat bg-blend-overlay bg-cover  bg-[url('https://threatmits.com/assets/pattern2.jpeg')]  "
         style={{
           backgroundImage: `url(${pattern})`,
         }}

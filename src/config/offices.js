@@ -4,7 +4,7 @@ export const Offices = [
     address:
       " 3 Obilor street, off stadium road, rumuomasi,  Rivers State,  Nigeria.",
     state: "Rivers State",
-    telephone: "+2348024448289",
+    telephone: "+2348136042622",
     map: {
       src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3975.68466026062!2d7.016625674992051!3d4.824104195151391!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1069cdcfb37fc4a7%3A0xa5eab1dd2797a211!2s3%20Obilor%20Street%2C%20Rumuola%20500101%2C%20Port%20Harcourt%2C%20Rivers!5e0!3m2!1sen!2sng!4v1688729090043!5m2!1sen!2sng",
     },
